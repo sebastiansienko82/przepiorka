@@ -78,7 +78,14 @@
 							<span class="imMnMnLevelImg"></span><span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Galeria</span></span>
 						</span>
 				<ul class="auto">
-					<li id="imMnMnNode31" class="imMnMnFirst imPage">
+					<li id="imMnMnNode32" class="imMnMnFirst imPage">
+						<a href="ostatnia-droga-kol.--ukasza-kochaczewskiego.html">
+							<span class="imMnMnBorder">
+								<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Ostatnia droga kol. Łukasza Kochaczewskiego</span></span>
+							</span>
+						</a>
+					</li>
+					<li id="imMnMnNode31" class="imMnMnMiddle imPage">
 						<a href="weso-ych--wi-t-bo-ego-narodzenia-i-szcz--liwego-nowego-roku.html">
 							<span class="imMnMnBorder">
 								<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Wesołych Świąt Bożego Narodzenia i Szczęśliwego Nowego Roku</span></span>
@@ -612,7 +619,40 @@
 				
 				</div>
 				</div></div><div id="imGroup_3" class="imHGroup">
-				<div id="imCell_28" class="" > <div id="imCellStyleGraphics_28"></div><div id="imCellStyle_28"  data-responsive-sequence-number="43"><div id="imObjectGallery_3_28"><div id="imObjectGalleryContainer_28"></div></div><script type="text/javascript">var imObjectGallery_3_28_settings = {'target': '#imObjectGallery_3_28','backgroundColor': 'transparent','description': { 'fontSize': '9pt','fontFamily': 'Tahoma','fontStyle': 'normal','fontWeight': 'normal'},'autoplay': false,'thumbs': { 'position': 'bottom', 'number': 4 },'controlBar': { 'show': true, 'color': '#141414' },'random': false,'fullScreen': false,'media': [{'type': 'image','width': 308,'height': 231,'url': 'gallery/Budowa_domku_my-liwskiego_Przechody_01.jpg','thumb': 'gallery/Budowa_domku_my-liwskiego_Przechody_01_thumb.png','autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 308,'height': 231,'url': 'gallery/Budowa_domku_my-liwskiego_Przechody_00.jpg','thumb': 'gallery/Budowa_domku_my-liwskiego_Przechody_00_thumb.png','autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 308,'height': 231,'url': 'gallery/Budowa_domku_my-liwskiego_Przechody_02.jpg','thumb': 'gallery/Budowa_domku_my-liwskiego_Przechody_02_thumb.png','autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 308,'height': 231,'url': 'gallery/Budowa_domku_my-liwskiego_Przechody_03.jpg','thumb': 'gallery/Budowa_domku_my-liwskiego_Przechody_03_thumb.png','autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 308,'height': 231,'url': 'gallery/Budowa_domku_my-liwskiego_Przechody_04.jpg','thumb': 'gallery/Budowa_domku_my-liwskiego_Przechody_04_thumb.png','autoplayTime': 5000,'effect': 'none'}]};var dataimObjectGallery_3_28 = null;function loadimObjectGallery_3_28() {var startIndex = 0;if(!!dataimObjectGallery_3_28) {imObjectGallery_3_28_settings.startFrom = dataimObjectGallery_3_28.currentItemIndex();}var w = 0;var h = 0;var cbp = x5engine.responsive.getCurrentBreakPoint();if (cbp.fluid) {w = $('#imObjectGallery_3_28').innerWidth();h = w / 800 * 600;imObjectGallery_3_28_settings.width = w;imObjectGallery_3_28_settings.height = h + (w / 4);imObjectGallery_3_28_settings.thumbs.size = (w / 4) - 2;}else if (cbp.hash == '71b14e2b2a5121661fb7ddae017bdbf6') {imObjectGallery_3_28_settings.width = 308;imObjectGallery_3_28_settings.height = 306;imObjectGallery_3_28_settings.thumbs.size = 75;}else if (cbp.hash == 'd2f9bff7f63c0d6b7c7d55510409c19b') {imObjectGallery_3_28_settings.width = 227;imObjectGallery_3_28_settings.height = 224;imObjectGallery_3_28_settings.thumbs.size = 54;}else if (cbp.hash == '72e5146e7d399bc2f8a12127e43469f1') {imObjectGallery_3_28_settings.width = 459;imObjectGallery_3_28_settings.height = 456;imObjectGallery_3_28_settings.thumbs.size = 112;}dataimObjectGallery_3_28 = x5engine.gallery(imObjectGallery_3_28_settings);$('#imContent').off('breakpointChangedOrFluid', loadimObjectGallery_3_28).on('breakpointChangedOrFluid', loadimObjectGallery_3_28);}x5engine.boot.push(loadimObjectGallery_3_28);</script></div></div><div id="imCell_29" class="" > <div id="imCellStyleGraphics_29"></div><div id="imCellStyle_29"  data-responsive-sequence-number="44"><div id="imTextObject_3_29">
+				<div id="imCell_28" class="" > <div id="imCellStyleGraphics_28"></div><div id="imCellStyle_28"  data-responsive-sequence-number="43"><div id="imObjectGallery_3_28"><div id="imObjectGalleryContainer_28"></div></div><script type="text/javascript">var imObjectGallery_3_28_settings = {'target': '#imObjectGallery_3_28','backgroundColor': 'transparent','description': { 'fontSize': '9pt','fontFamily': 'Tahoma','fontStyle': 'normal','fontWeight': 'normal'},'autoplay': false,'thumbs': { 'position': 'bottom', 'number': 4 },'controlBar': { 'show': true, 'color': '#141414' },'random': false,'fullScreen': false,'media': [{'type': 'image','width': 308,'height': 231,'url': 'gallery/Budowa_domku_my-liwskiego_Przechody_01.jpg','thumb': 'gallery/Budowa_domku_my-liwskiego_Przechody_01_thumb.png','autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 308,'height': 231,'url': 'gallery/Budowa_domku_my-liwskiego_Przechody_00.jpg','thumb': 'gallery/Budowa_domku_my-liwskiego_Przechody_00_thumb.png','autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 308,'height': 231,'url': 'gallery/Budowa_domku_my-liwskiego_Przechody_02.jpg','thumb': 'gallery/Budowa_domku_my-liwskiego_Przechody_02_thumb.png','autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 308,'height': 231,'url': 'gallery/Budowa_domku_my-liwskiego_Przechody_03.jpg','thumb': 'gallery/Budowa_domku_my-liwskiego_Przechody_03_thumb.png','autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 308,'height': 231,'url': 'gallery/Budowa_domku_my-liwskiego_Przechody_04.jpg','thumb': 'gallery/Budowa_domku_my-liwskiego_Przechody_04_thumb.png','autoplayTime': 5000,'effect': 'none'}]};var dataimObjectGallery_3_28 = null;
+function loadimObjectGallery_3_28() {
+var startIndex = 0;
+if(!!dataimObjectGallery_3_28) {
+imObjectGallery_3_28_settings.startFrom = dataimObjectGallery_3_28.currentItemIndex();
+}
+var w = 0;
+var h = 0;
+var cbp = x5engine.responsive.getCurrentBreakPoint();
+if (cbp.fluid) {
+w = $('#imObjectGallery_3_28').innerWidth();
+h = w / 800 * 600;
+imObjectGallery_3_28_settings.width = w;
+imObjectGallery_3_28_settings.height = h + (w / 4);
+imObjectGallery_3_28_settings.thumbs.size = (w / 4) - 2;
+}
+else if (cbp.hash == '71b14e2b2a5121661fb7ddae017bdbf6') {
+imObjectGallery_3_28_settings.width = 308;
+imObjectGallery_3_28_settings.height = 306;
+imObjectGallery_3_28_settings.thumbs.size = 75;
+}
+else if (cbp.hash == 'd2f9bff7f63c0d6b7c7d55510409c19b') {
+imObjectGallery_3_28_settings.width = 227;
+imObjectGallery_3_28_settings.height = 224;
+imObjectGallery_3_28_settings.thumbs.size = 54;
+}
+else if (cbp.hash == '72e5146e7d399bc2f8a12127e43469f1') {
+imObjectGallery_3_28_settings.width = 459;
+imObjectGallery_3_28_settings.height = 456;
+imObjectGallery_3_28_settings.thumbs.size = 112;
+}
+dataimObjectGallery_3_28 = x5engine.gallery(imObjectGallery_3_28_settings);$('#imContent').off('breakpointChangedOrFluid', loadimObjectGallery_3_28).on('breakpointChangedOrFluid', loadimObjectGallery_3_28);
+}
+x5engine.boot.push(loadimObjectGallery_3_28);</script></div></div><div id="imCell_29" class="" > <div id="imCellStyleGraphics_29"></div><div id="imCellStyle_29"  data-responsive-sequence-number="44"><div id="imTextObject_3_29">
 					<div class="text-tab-content"  id="imTextObject_3_29_tab0" style="">
 						<div class="text-inner">
 							<span class="cf1">01.12.2021</span><div><br></div><div><span class="cf1"><b>Budowa domku myśliwskiego w Przechodach trwa - listopad 2021</b></span><br></div>
@@ -661,7 +701,39 @@
 					</div>
 				
 				</div>
-				</div></div><div id="imCell_19" class="" > <div id="imCellStyleGraphics_19"></div><div id="imCellStyle_19"  data-responsive-sequence-number="51"><div id="imObjectGallery_3_19"><div id="imObjectGalleryContainer_19"></div></div><script type="text/javascript">var imObjectGallery_3_19_settings = {'target': '#imObjectGallery_3_19','backgroundColor': 'transparent','description': { 'fontSize': '9pt','fontFamily': 'Tahoma','fontStyle': 'normal','fontWeight': 'normal'},'autoplay': true,'thumbs': { 'position': 'none', 'number': 4 },'controlBar': { 'show': false, 'color': '#141414' },'random': false,'fullScreen': false,'slideshow': { 'active': true, buttonPrev: { url: 'gallery/b01_l.png', x: -12, y: 0, width: 24, height: 37 }, buttonNext: { url: 'gallery/b01_r.png', x: -12, y: 0, width: 24, height: 37 }, nextPrevMode: 'none'},'media': [{'type': 'image','width': 628,'height': 442,'url': 'gallery/sp_mieczyslawdregowski.png','autoplayTime': 5000,'effect': 'none'}]};var dataimObjectGallery_3_19 = null;function loadimObjectGallery_3_19() {var startIndex = 0;if(!!dataimObjectGallery_3_19) {imObjectGallery_3_19_settings.startFrom = dataimObjectGallery_3_19.currentItemIndex();}var w = 0;var h = 0;var cbp = x5engine.responsive.getCurrentBreakPoint();if (cbp.fluid) {w = $('#imObjectGallery_3_19').innerWidth();h = w / 640 * 480;imObjectGallery_3_19_settings.width = w;imObjectGallery_3_19_settings.height = h + (w / 4);}else if (cbp.hash == '71b14e2b2a5121661fb7ddae017bdbf6') {imObjectGallery_3_19_settings.width = 628;imObjectGallery_3_19_settings.height = 471;imObjectGallery_3_19_settings.thumbs.size = 25;}else if (cbp.hash == 'd2f9bff7f63c0d6b7c7d55510409c19b') {imObjectGallery_3_19_settings.width = 464;imObjectGallery_3_19_settings.height = 348;imObjectGallery_3_19_settings.thumbs.size = 25;}else if (cbp.hash == '72e5146e7d399bc2f8a12127e43469f1') {imObjectGallery_3_19_settings.width = 461;imObjectGallery_3_19_settings.height = 346;imObjectGallery_3_19_settings.thumbs.size = 25;}dataimObjectGallery_3_19 = x5engine.gallery(imObjectGallery_3_19_settings);$('#imContent').off('breakpointChangedOrFluid', loadimObjectGallery_3_19).on('breakpointChangedOrFluid', loadimObjectGallery_3_19);}x5engine.boot.push(loadimObjectGallery_3_19);</script></div></div><div id="imCell_16" class="" > <div id="imCellStyleGraphics_16"></div><div id="imCellStyle_16"  data-responsive-sequence-number="52"><div id="imTextObject_3_16">
+				</div></div><div id="imCell_19" class="" > <div id="imCellStyleGraphics_19"></div><div id="imCellStyle_19"  data-responsive-sequence-number="51"><div id="imObjectGallery_3_19"><div id="imObjectGalleryContainer_19"></div></div><script type="text/javascript">var imObjectGallery_3_19_settings = {'target': '#imObjectGallery_3_19','backgroundColor': 'transparent','description': { 'fontSize': '9pt','fontFamily': 'Tahoma','fontStyle': 'normal','fontWeight': 'normal'},'autoplay': true,'thumbs': { 'position': 'none', 'number': 4 },'controlBar': { 'show': false, 'color': '#141414' },'random': false,'fullScreen': false,'slideshow': { 'active': true, buttonPrev: { url: 'gallery/b01_l.png', x: -12, y: 0, width: 24, height: 37 }, buttonNext: { url: 'gallery/b01_r.png', x: -12, y: 0, width: 24, height: 37 }, nextPrevMode: 'none'},'media': [{'type': 'image','width': 628,'height': 442,'url': 'gallery/sp_mieczyslawdregowski.png','autoplayTime': 5000,'effect': 'none'}]};var dataimObjectGallery_3_19 = null;
+function loadimObjectGallery_3_19() {
+var startIndex = 0;
+if(!!dataimObjectGallery_3_19) {
+imObjectGallery_3_19_settings.startFrom = dataimObjectGallery_3_19.currentItemIndex();
+}
+var w = 0;
+var h = 0;
+var cbp = x5engine.responsive.getCurrentBreakPoint();
+if (cbp.fluid) {
+w = $('#imObjectGallery_3_19').innerWidth();
+h = w / 640 * 480;
+imObjectGallery_3_19_settings.width = w;
+imObjectGallery_3_19_settings.height = h + (w / 4);
+}
+else if (cbp.hash == '71b14e2b2a5121661fb7ddae017bdbf6') {
+imObjectGallery_3_19_settings.width = 628;
+imObjectGallery_3_19_settings.height = 471;
+imObjectGallery_3_19_settings.thumbs.size = 25;
+}
+else if (cbp.hash == 'd2f9bff7f63c0d6b7c7d55510409c19b') {
+imObjectGallery_3_19_settings.width = 464;
+imObjectGallery_3_19_settings.height = 348;
+imObjectGallery_3_19_settings.thumbs.size = 25;
+}
+else if (cbp.hash == '72e5146e7d399bc2f8a12127e43469f1') {
+imObjectGallery_3_19_settings.width = 461;
+imObjectGallery_3_19_settings.height = 346;
+imObjectGallery_3_19_settings.thumbs.size = 25;
+}
+dataimObjectGallery_3_19 = x5engine.gallery(imObjectGallery_3_19_settings);$('#imContent').off('breakpointChangedOrFluid', loadimObjectGallery_3_19).on('breakpointChangedOrFluid', loadimObjectGallery_3_19);
+}
+x5engine.boot.push(loadimObjectGallery_3_19);</script></div></div><div id="imCell_16" class="" > <div id="imCellStyleGraphics_16"></div><div id="imCellStyle_16"  data-responsive-sequence-number="52"><div id="imTextObject_3_16">
 					<div class="text-tab-content"  id="imTextObject_3_16_tab0" style="">
 						<div class="text-inner">
 							<div><span class="cf1">_______________________________________________________________________________________________________________________________________</span></div>
