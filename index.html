@@ -79,7 +79,14 @@
 							<span class="imMnMnLevelImg"></span><span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Galeria</span></span>
 						</span>
 				<ul class="auto">
-					<li id="imMnMnNode32" class="imMnMnFirst imPage">
+					<li id="imMnMnNode33" class="imMnMnFirst imPage">
+						<a href="ostatnie-po-egnanie-kol.-zdzis-awa-si-kowskiego.html">
+							<span class="imMnMnBorder">
+								<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Ostatnie pożegnanie kol. Zdzisława Siłkowskiego</span></span>
+							</span>
+						</a>
+					</li>
+					<li id="imMnMnNode32" class="imMnMnMiddle imPage">
 						<a href="ostatnia-droga-kol.--ukasza-kochaczewskiego.html">
 							<span class="imMnMnBorder">
 								<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Ostatnia droga kol. Łukasza Kochaczewskiego</span></span>

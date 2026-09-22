@@ -29,6 +29,7 @@ $imSettings['search']['general'] = array(
 		'27' => 'polowania-indywidualne-2024-.html',
 		'28' => 'polowanie-wigilijne-2024.html',
 		'30' => 'polowanie-wigilijne-2025-1.html',
+		'33' => 'ostatnie-po-egnanie-kol.-zdzis-awa-si-kowskiego.html',
 		'32' => 'ostatnia-droga-kol.--ukasza-kochaczewskiego.html',
 		'31' => 'weso-ych--wi-t-bo-ego-narodzenia-i-szcz--liwego-nowego-roku.html'
 	),
