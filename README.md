@@ -15,7 +15,7 @@ npm run dev
 npm run build
 ```
 
-Upload the `dist/` folder. Pages are directories with `index.html`, so `/zarzad/` and `/galeria/polowanie-wigilijne-2025/` work on a normal static host.
+The build is written to `docs/` so GitHub Pages can publish this branch from the `/docs` folder. Pages are directories with `index.html`, so `/zarzad/` and `/galeria/polowanie-wigilijne-2025/` work on a normal static host.
 
 `npm run extract` rebuilds `src/data` and copies photos and documents out of `old/`. Run it again only after the archive changes.
 
