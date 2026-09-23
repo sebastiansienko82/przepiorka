@@ -6,21 +6,28 @@ import news from "../data/news.json";
 import albums from "../data/albums.json";
 
 const [hubert, group] = site.homeImages;
+const seal = site.marks[0];
 const latestNews = news.slice(0, 3);
 const latestAlbums = albums.slice(0, 6);
 const description = `${site.name} ${site.place}. ${site.addressLines.join(", ")}. REGON ${site.regon}, NIP ${site.nip}.`;
+
+function isCover(image: { width: number; height: number } | null) {
+  return !!image && image.width >= 480 && image.height >= 320;
+}
 ---
 
 <Base title={site.name} description={description} path="/">
   <section class="hero">
     {hubert && <img class="hero-photo" src={hubert.src} alt="" width={hubert.width} height={hubert.height} />}
     <div class="hero-copy">
-      <p class="kicker">{site.greeting}</p>
+      <p class="kicker"><span aria-hidden="true">✦</span> {site.greeting}</p>
       <h1>Koło Łowieckie „Przepiórka”</h1>
       <p class="hero-place">{site.place}</p>
-      <p class="hero-meta">
-        {site.addressLines.join(", ")}
-      </p>
+      <p class="hero-meta">{site.addressLines.join(" · ")}</p>
+      <div class="actions">
+        <a class="button" href="/galeria/">Galeria</a>
+        <a class="button secondary" href="/aktualnosci/">Aktualności</a>
+      </div>
     </div>
   </section>
 
@@ -28,27 +35,32 @@ const description = `${site.name} ${site.place}. ${site.addressLines.join(", ")}
     <div class="wrap split">
       <div>
         <h2 class="section-title">Koło w Księżynie</h2>
-        <dl class="facts">
-          <dt>Adres</dt>
-          <dd>{site.addressLines[0]}, {site.addressLines[1]}</dd>
-          <dt>REGON</dt>
-          <dd>{site.regon}</dd>
-          <dt>NIP</dt>
-          <dd>{site.nip}</dd>
-        </dl>
-        <div class="actions">
-          <a class="button" href="/aktualnosci/">Aktualności</a>
-          <a class="button secondary" href="/galeria/">Galeria</a>
+        <div class="stat-row">
+          <div class="stat">
+            <span>Adres</span>
+            <strong>{site.addressLines[0]}</strong>
+            <strong>{site.addressLines[1]}</strong>
+          </div>
+          <div class="stat">
+            <span>REGON</span>
+            <strong>{site.regon}</strong>
+          </div>
+          <div class="stat">
+            <span>NIP</span>
+            <strong>{site.nip}</strong>
+          </div>
         </div>
       </div>
       {
         group && (
-          <img
-            src={group.src}
-            alt={group.alt}
-            width={group.width}
-            height={group.height}
-          />
+          <figure class="framed">
+            <img src={group.src} alt={group.alt} width={group.width} height={group.height} />
+            {
+              seal && (
+                <img class="seal" src={seal.src} alt={seal.alt} width={seal.width} height={seal.height} />
+              )
+            }
+          </figure>
         )
       }
     </div>
@@ -64,8 +76,13 @@ const description = `${site.name} ${site.place}. ${site.addressLines.join(", ")}
         {
           latestNews.map((item) => (
             <a class="card" href={`/aktualnosci/${item.slug}/`}>
-              {item.image && <img class="card-photo" src={item.image.src} alt="" width={item.image.width} height={item.image.height} loading="lazy" />}
+              {item.image && isCover(item.image) && (
+                <img class="card-photo" src={item.image.src} alt="" width={item.image.width} height={item.image.height} loading="lazy" />
+              )}
               <span class="card-body">
+                {item.image && !isCover(item.image) && (
+                  <img class="card-emblem" src={item.image.src} alt="" width={item.image.width} height={item.image.height} />
+                )}
                 {item.dateLabel && <time datetime={item.date ?? undefined}>{item.dateLabel}</time>}
                 <h2>{item.title}</h2>
                 <p>{item.excerpt}</p>
