@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import news from "../../data/news.json";
+import { prefixRootUrls, sitePath } from "../../lib/paths";
 
 export function getStaticPaths() {
   return news.map((item) => ({
@@ -20,14 +21,14 @@ const { item } = Astro.props;
       item.image && (
         <img
           class="lead-photo"
-          src={item.image.src}
+          src={sitePath(item.image.src)}
           alt={item.image.alt || item.title}
           width={item.image.width}
           height={item.image.height}
         />
       )
     }
-    <div class="prose" set:html={item.html} />
-    <p><a href="/aktualnosci/">Wróć do aktualności</a></p>
+    <div class="prose" set:html={prefixRootUrls(item.html)} />
+    <p><a href={sitePath("/aktualnosci/")}>Wróć do aktualności</a></p>
   </article>
 </Base>

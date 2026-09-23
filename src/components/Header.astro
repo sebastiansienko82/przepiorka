@@ -1,19 +1,20 @@
 ---
 import site from "../data/site.json";
+import { sitePath } from "../lib/paths";
 
 const links = [
-  { href: "/aktualnosci/", label: "Aktualności" },
-  { href: "/galeria/", label: "Galeria" },
-  { href: "/zarzad/", label: "Zarząd" },
-  { href: "/ksiazka-polowan/", label: "Książka polowań" },
+  { href: sitePath("/aktualnosci/"), label: "Aktualności" },
+  { href: sitePath("/galeria/"), label: "Galeria" },
+  { href: sitePath("/zarzad/"), label: "Zarząd" },
+  { href: sitePath("/ksiazka-polowan/"), label: "Książka polowań" },
 ];
 
 const pathname = Astro.url.pathname;
 ---
 
 <header class="site-header">
-  <a class="brand" href="/">
-    <img src={site.logo} alt="" width="80" height="80" />
+  <a class="brand" href={sitePath("/")}>
+    <img src={sitePath(site.logo)} alt="" width="80" height="80" />
     <span class="brand-text">
       <strong>Przepiórka</strong>
       <span>Koło łowieckie w Księżynie</span>

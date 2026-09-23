@@ -2,7 +2,8 @@ import sitemap from "@astrojs/sitemap";
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://kololowieckieprzepiorka.pl",
+  site: "https://sebastiansienko82.github.io",
+  base: "/przepiorka",
   outDir: "./docs",
   trailingSlash: "always",
   integrations: [sitemap()],

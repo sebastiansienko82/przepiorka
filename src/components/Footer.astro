@@ -1,5 +1,6 @@
 ---
 import site from "../data/site.json";
+import { sitePath } from "../lib/paths";
 ---
 
 <footer class="site-footer">
@@ -22,10 +23,10 @@ import site from "../data/site.json";
     <div>
       <h2>Na stronie</h2>
       <ul>
-        <li><a href="/aktualnosci/">Aktualności</a></li>
-        <li><a href="/galeria/">Galeria</a></li>
-        <li><a href="/zarzad/">Zarząd</a></li>
-        <li><a href="/ksiazka-polowan/">Książka polowań</a></li>
+        <li><a href={sitePath("/aktualnosci/")}>Aktualności</a></li>
+        <li><a href={sitePath("/galeria/")}>Galeria</a></li>
+        <li><a href={sitePath("/zarzad/")}>Zarząd</a></li>
+        <li><a href={sitePath("/ksiazka-polowan/")}>Książka polowań</a></li>
       </ul>
     </div>
   </div>

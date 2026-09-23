@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import site from "../data/site.json";
+import { sitePath } from "../lib/paths";
 
 const book = site.huntBook;
 ---
@@ -28,7 +29,7 @@ const book = site.huntBook;
       {
         book.image && (
           <a href={book.url} target="_blank" rel="noopener noreferrer">
-            <img src={book.image.src} alt={book.image.alt || book.title} width={book.image.width} height={book.image.height} />
+            <img src={sitePath(book.image.src)} alt={book.image.alt || book.title} width={book.image.width} height={book.image.height} />
           </a>
         )
       }

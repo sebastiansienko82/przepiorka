@@ -1,5 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
+import { sitePath } from "../../lib/paths";
 import { photoCount } from "../../lib/polish";
 import albums from "../../data/albums.json";
 ---
@@ -17,9 +18,9 @@ import albums from "../../data/albums.json";
     <div class="wrap album-grid">
       {
         albums.map((album) => (
-          <a class="album-card" href={`/galeria/${album.slug}/`}>
+          <a class="album-card" href={sitePath(`/galeria/${album.slug}/`)}>
             {album.cover && (
-              <img src={album.cover.src} alt="" width={album.cover.width} height={album.cover.height} loading="lazy" decoding="async" />
+              <img src={sitePath(album.cover.src)} alt="" width={album.cover.width} height={album.cover.height} loading="lazy" decoding="async" />
             )}
             <span>
               <small>{photoCount(album.photos.length)}</small>

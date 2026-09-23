@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import news from "../../data/news.json";
+import { sitePath } from "../../lib/paths";
 ---
 
 <Base
@@ -16,9 +17,9 @@ import news from "../../data/news.json";
     <div class="wrap card-grid">
       {
         news.map((item) => (
-          <a class="card" href={`/aktualnosci/${item.slug}/`}>
+          <a class="card" href={sitePath(`/aktualnosci/${item.slug}/`)}>
             {item.image && (
-              <img class="card-photo" src={item.image.src} alt="" width={item.image.width} height={item.image.height} loading="lazy" />
+              <img class="card-photo" src={sitePath(item.image.src)} alt="" width={item.image.width} height={item.image.height} loading="lazy" />
             )}
             <span class="card-body">
               {item.dateLabel && <time datetime={item.date ?? undefined}>{item.dateLabel}</time>}

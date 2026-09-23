@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import site from "../data/site.json";
+import { sitePath } from "../lib/paths";
 ---
 
 <Base
@@ -28,7 +29,7 @@ import site from "../data/site.json";
         </dl>
       </div>
       <div class="marks">
-        {site.marks.map((mark) => <img src={mark.src} alt={mark.alt} width={mark.width} height={mark.height} />)}
+        {site.marks.map((mark) => <img src={sitePath(mark.src)} alt={mark.alt} width={mark.width} height={mark.height} />)}
       </div>
     </div>
   </section>

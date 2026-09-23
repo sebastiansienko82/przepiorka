@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import { sitePath } from "../lib/paths";
 import { photoCount } from "../lib/polish";
 import site from "../data/site.json";
 import news from "../data/news.json";
@@ -18,15 +19,15 @@ function isCover(image: { width: number; height: number } | null) {
 
 <Base title={site.name} description={description} path="/">
   <section class="hero">
-    {hubert && <img class="hero-photo" src={hubert.src} alt="" width={hubert.width} height={hubert.height} />}
+    {hubert && <img class="hero-photo" src={sitePath(hubert.src)} alt="" width={hubert.width} height={hubert.height} />}
     <div class="hero-copy">
       <p class="kicker"><span aria-hidden="true">✦</span> {site.greeting}</p>
       <h1>Koło Łowieckie „Przepiórka”</h1>
       <p class="hero-place">{site.place}</p>
       <p class="hero-meta">{site.addressLines.join(" · ")}</p>
       <div class="actions">
-        <a class="button" href="/galeria/">Galeria</a>
-        <a class="button secondary" href="/aktualnosci/">Aktualności</a>
+        <a class="button" href={sitePath("/galeria/")}>Galeria</a>
+        <a class="button secondary" href={sitePath("/aktualnosci/")}>Aktualności</a>
       </div>
     </div>
   </section>
@@ -54,10 +55,10 @@ function isCover(image: { width: number; height: number } | null) {
       {
         group && (
           <figure class="framed">
-            <img src={group.src} alt={group.alt} width={group.width} height={group.height} />
+            <img src={sitePath(group.src)} alt={group.alt} width={group.width} height={group.height} />
             {
               seal && (
-                <img class="seal" src={seal.src} alt={seal.alt} width={seal.width} height={seal.height} />
+                <img class="seal" src={sitePath(seal.src)} alt={seal.alt} width={seal.width} height={seal.height} />
               )
             }
           </figure>
@@ -70,18 +71,18 @@ function isCover(image: { width: number; height: number } | null) {
     <div class="wrap">
       <div class="section-head">
         <h2 class="section-title">Aktualności</h2>
-        <a href="/aktualnosci/">Wszystkie</a>
+        <a href={sitePath("/aktualnosci/")}>Wszystkie</a>
       </div>
       <div class="card-grid">
         {
           latestNews.map((item) => (
-            <a class="card" href={`/aktualnosci/${item.slug}/`}>
+            <a class="card" href={sitePath(`/aktualnosci/${item.slug}/`)}>
               {item.image && isCover(item.image) && (
-                <img class="card-photo" src={item.image.src} alt="" width={item.image.width} height={item.image.height} loading="lazy" />
+                <img class="card-photo" src={sitePath(item.image.src)} alt="" width={item.image.width} height={item.image.height} loading="lazy" />
               )}
               <span class="card-body">
                 {item.image && !isCover(item.image) && (
-                  <img class="card-emblem" src={item.image.src} alt="" width={item.image.width} height={item.image.height} />
+                  <img class="card-emblem" src={sitePath(item.image.src)} alt="" width={item.image.width} height={item.image.height} />
                 )}
                 {item.dateLabel && <time datetime={item.date ?? undefined}>{item.dateLabel}</time>}
                 <h2>{item.title}</h2>
@@ -98,14 +99,14 @@ function isCover(image: { width: number; height: number } | null) {
     <div class="wrap">
       <div class="section-head">
         <h2 class="section-title">Galeria</h2>
-        <a href="/galeria/">Wszystkie albumy</a>
+        <a href={sitePath("/galeria/")}>Wszystkie albumy</a>
       </div>
       <div class="album-grid">
         {
           latestAlbums.map((album) => (
-            <a class="album-card" href={`/galeria/${album.slug}/`}>
+            <a class="album-card" href={sitePath(`/galeria/${album.slug}/`)}>
               {album.cover && (
-                <img src={album.cover.src} alt="" width={album.cover.width} height={album.cover.height} loading="lazy" />
+                <img src={sitePath(album.cover.src)} alt="" width={album.cover.width} height={album.cover.height} loading="lazy" />
               )}
               <span>
                 <small>{photoCount(album.photos.length)}</small>

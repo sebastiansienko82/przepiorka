@@ -1,5 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
+import { sitePath } from "../../lib/paths";
 import { photoCount } from "../../lib/polish";
 import albums from "../../data/albums.json";
 
@@ -16,7 +17,7 @@ const description = `${album.title}. ${album.photos.length} zdjęć w galerii Ko
 
 <Base title={album.title} description={description} path={`/galeria/${album.slug}/`}>
   <div class="wrap page-head">
-    <p><a href="/galeria/">Galeria</a></p>
+    <p><a href={sitePath("/galeria/")}>Galeria</a></p>
     <h1>{album.title}</h1>
     <p>{photoCount(album.photos.length)}</p>
   </div>
@@ -26,7 +27,7 @@ const description = `${album.title}. ${album.photos.length} zdjęć w galerii Ko
         album.photos.map((photo, index) => (
           <button type="button" data-index={index} aria-label={`Powiększ: ${album.title}, zdjęcie ${index + 1}`}>
             <img
-              src={photo.src}
+              src={sitePath(photo.src)}
               alt={`${album.title}, zdjęcie ${index + 1}`}
               width={photo.width}
               height={photo.height}
@@ -53,7 +54,7 @@ const description = `${album.title}. ${album.photos.length} zdjęć w galerii Ko
     </div>
   </dialog>
 
-  <script define:vars={{ photos: album.photos.map((photo, index) => ({ src: photo.src, alt: `${album.title}, zdjęcie ${index + 1}` })) }}>
+  <script define:vars={{ photos: album.photos.map((photo, index) => ({ src: sitePath(photo.src), alt: `${album.title}, zdjęcie ${index + 1}` })) }}>
     const dialog = document.querySelector("dialog.lightbox");
     const image = dialog?.querySelector("img");
     const count = dialog?.querySelector(".lightbox-count");

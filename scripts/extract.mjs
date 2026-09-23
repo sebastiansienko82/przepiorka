@@ -6,7 +6,8 @@ const root = path.resolve(import.meta.dirname, "..");
 const oldDir = path.join(root, "old");
 const publicDir = path.join(root, "public");
 const dataDir = path.join(root, "src", "data");
-const siteOrigin = "https://kololowieckieprzepiorka.pl";
+const siteOrigin = "https://sebastiansienko82.github.io";
+const siteBase = "/przepiorka";
 
 const LETTERS = {
   ą: "a",
@@ -432,7 +433,9 @@ function newsCells() {
 }
 
 function redirectPage(target) {
-  const absolute = new URL(target, siteOrigin).href;
+  const href = target.startsWith("/") ? `${siteBase}${target}` : target;
+  const absolute = new URL(href, siteOrigin).href;
+  target = href;
   return `<!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -610,7 +613,7 @@ for (const [filename, target] of routes) {
 
 fs.writeFileSync(
   path.join(publicDir, "robots.txt"),
-  `User-agent: *\nAllow: /\nSitemap: ${siteOrigin}/sitemap-index.xml\n`,
+  `User-agent: *\nAllow: /\nSitemap: ${siteOrigin}${siteBase}/sitemap-index.xml\n`,
 );
 
 console.log(`albums ${albums.length}, news ${news.length}, files ${fileMap.size}, redirects ${routes.size - 1}`);
