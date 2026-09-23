@@ -907,6 +907,222 @@ dialog.lightbox::backdrop {
   font-size: 0.78rem;
 }
 
+.hunt-today,
+.hunt-notes {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 1rem 1.15rem 1.1rem;
+  box-shadow: 0 10px 28px rgba(27, 25, 21, 0.05);
+}
+
+.hunt-today {
+  margin-bottom: 1.25rem;
+}
+
+.hunt-today .kicker {
+  margin-bottom: 0.2rem;
+}
+
+.hunt-today-date {
+  margin: 0 0 0.75rem;
+  font-family: var(--serif);
+  font-size: 1.45rem;
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--forest);
+}
+
+.hunt-today-date:empty {
+  min-height: 1.2em;
+}
+
+.hunt-today-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hunt-today-list li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.55rem;
+  align-items: center;
+  min-height: 3.4rem;
+}
+
+.hunt-today-list strong,
+.hunt-today-list small {
+  display: block;
+  line-height: 1.3;
+}
+
+.hunt-today-list strong {
+  font-weight: 600;
+}
+
+.hunt-today-list small {
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+.hunt-today-list .is-extended {
+  color: #6d5424;
+}
+
+.hunt-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 1rem;
+}
+
+.hunt-tabs a {
+  border: 1px solid var(--line);
+  background: white;
+  color: var(--forest);
+  border-radius: 999px;
+  padding: 0.38rem 0.75rem;
+  font-weight: 600;
+  font-size: 0.92rem;
+  text-decoration: none;
+}
+
+.hunt-tabs a[aria-current="true"] {
+  background: var(--forest);
+  border-color: var(--forest);
+  color: var(--paper);
+}
+
+.hunt-month h2 {
+  margin: 0 0 0.75rem;
+  font-family: var(--serif);
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.hunt-month h2::after {
+  content: "";
+  display: block;
+  width: 2.6rem;
+  height: 1px;
+  margin-top: 0.55rem;
+  background: var(--gold);
+}
+
+.hunt-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hunt-row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.85rem;
+  align-items: center;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 0.65rem 0.95rem;
+  box-shadow: 0 10px 28px rgba(27, 25, 21, 0.04);
+}
+
+.hunt-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem;
+  align-items: center;
+}
+
+.hunt-icons img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+}
+
+.hunt-today-list .hunt-icons img {
+  width: 2.45rem;
+  height: 2.45rem;
+}
+
+.hunt-row h3 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.28rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.hunt-detail {
+  margin: 0.1rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.hunt-parts {
+  margin: 0.2rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hunt-parts li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.45rem;
+  align-items: baseline;
+  color: var(--ink);
+}
+
+.hunt-parts strong {
+  font-weight: 600;
+}
+
+.hunt-parts strong::after {
+  content: "—";
+  margin-left: 0.45rem;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.hunt-parts small {
+  flex-basis: 100%;
+  color: #6d5424;
+  font-size: 0.88rem;
+}
+
+.hunt-notes {
+  margin-top: 1.25rem;
+}
+
+.hunt-notes p {
+  margin: 0 0 0.7rem;
+  color: var(--muted);
+}
+
+.hunt-notes p:last-child {
+  margin-bottom: 0;
+}
+
+.hunt-retired {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+}
+
+.hunt-retired img {
+  width: 2.6rem;
+  height: 2.6rem;
+  object-fit: contain;
+  opacity: 0.55;
+}
+
 @media (max-width: 980px) {
   .moon-widget {
     grid-template-columns: 5.75rem minmax(0, 1fr);
