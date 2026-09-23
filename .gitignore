@@ -1,22 +1,4 @@
-# Unused WebSite X5 captcha tiles. Keep the 10 names listed in captcha/x5captcha.php.
-captcha/imcpa_*.gif
-!captcha/imcpa_de8.gif
-!captcha/imcpa_4tl.gif
-!captcha/imcpa_d52.gif
-!captcha/imcpa_ac6.gif
-!captcha/imcpa_pkc.gif
-!captcha/imcpa_6h3.gif
-!captcha/imcpa_xzg.gif
-!captcha/imcpa_uap.gif
-!captcha/imcpa_8rf.gif
-!captcha/imcpa_m26.gif
-
-# Private-area passwords. Keep this file on the server only.
-res/access.inc.php
-
-# Local / editor junk
+node_modules/
+dist/
+.astro/
 .DS_Store
-Thumbs.db
-*.swp
-*~
-.idea/

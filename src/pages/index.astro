@@ -1,0 +1,103 @@
+---
+import Base from "../layouts/Base.astro";
+import { photoCount } from "../lib/polish";
+import site from "../data/site.json";
+import news from "../data/news.json";
+import albums from "../data/albums.json";
+
+const [hubert, group] = site.homeImages;
+const latestNews = news.slice(0, 3);
+const latestAlbums = albums.slice(0, 6);
+const description = `${site.name} ${site.place}. ${site.addressLines.join(", ")}. REGON ${site.regon}, NIP ${site.nip}.`;
+---
+
+<Base title={site.name} description={description} path="/">
+  <section class="hero">
+    {hubert && <img class="hero-photo" src={hubert.src} alt="" width={hubert.width} height={hubert.height} />}
+    <div class="hero-copy">
+      <p class="kicker">{site.greeting}</p>
+      <h1>Koło Łowieckie „Przepiórka”</h1>
+      <p class="hero-place">{site.place}</p>
+      <p class="hero-meta">
+        {site.addressLines.join(", ")}
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split">
+      <div>
+        <h2 class="section-title">Koło w Księżynie</h2>
+        <dl class="facts">
+          <dt>Adres</dt>
+          <dd>{site.addressLines[0]}, {site.addressLines[1]}</dd>
+          <dt>REGON</dt>
+          <dd>{site.regon}</dd>
+          <dt>NIP</dt>
+          <dd>{site.nip}</dd>
+        </dl>
+        <div class="actions">
+          <a class="button" href="/aktualnosci/">Aktualności</a>
+          <a class="button secondary" href="/galeria/">Galeria</a>
+        </div>
+      </div>
+      {
+        group && (
+          <img
+            src={group.src}
+            alt={group.alt}
+            width={group.width}
+            height={group.height}
+          />
+        )
+      }
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="section-title">Aktualności</h2>
+        <a href="/aktualnosci/">Wszystkie</a>
+      </div>
+      <div class="card-grid">
+        {
+          latestNews.map((item) => (
+            <a class="card" href={`/aktualnosci/${item.slug}/`}>
+              {item.image && <img class="card-photo" src={item.image.src} alt="" width={item.image.width} height={item.image.height} loading="lazy" />}
+              <span class="card-body">
+                {item.dateLabel && <time datetime={item.date ?? undefined}>{item.dateLabel}</time>}
+                <h2>{item.title}</h2>
+                <p>{item.excerpt}</p>
+              </span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="section-title">Galeria</h2>
+        <a href="/galeria/">Wszystkie albumy</a>
+      </div>
+      <div class="album-grid">
+        {
+          latestAlbums.map((album) => (
+            <a class="album-card" href={`/galeria/${album.slug}/`}>
+              {album.cover && (
+                <img src={album.cover.src} alt="" width={album.cover.width} height={album.cover.height} loading="lazy" />
+              )}
+              <span>
+                <small>{photoCount(album.photos.length)}</small>
+                <strong>{album.title}</strong>
+              </span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>

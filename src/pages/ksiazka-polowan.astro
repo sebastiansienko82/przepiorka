@@ -1,0 +1,37 @@
+---
+import Base from "../layouts/Base.astro";
+import site from "../data/site.json";
+
+const book = site.huntBook;
+---
+
+<Base
+  title="Książka polowań"
+  description="Elektroniczna ewidencja polowań EPI24 dla Koła Łowieckiego Przepiórka."
+  path="/ksiazka-polowan/"
+>
+  <div class="wrap page-head">
+    <h1>Książka polowań</h1>
+    <p>Ewidencja polowań koła jest prowadzona w EPI24.</p>
+  </div>
+  <section class="section" style="padding-top: 0.5rem">
+    <div class="wrap split">
+      <div class="panel">
+        <h2>{book.title}</h2>
+        <p>Przepiórka</p>
+        <div class="actions">
+          <a class="button" href={book.url} target="_blank" rel="noopener noreferrer">Otwórz EPI24</a>
+          <a class="button secondary" href={book.android} target="_blank" rel="noopener noreferrer">Android</a>
+          <a class="button secondary" href={book.ios} target="_blank" rel="noopener noreferrer">iOS</a>
+        </div>
+      </div>
+      {
+        book.image && (
+          <a href={book.url} target="_blank" rel="noopener noreferrer">
+            <img src={book.image.src} alt={book.image.alt || book.title} width={book.image.width} height={book.image.height} />
+          </a>
+        )
+      }
+    </div>
+  </section>
+</Base>

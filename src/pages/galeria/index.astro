@@ -1,0 +1,33 @@
+---
+import Base from "../../layouts/Base.astro";
+import { photoCount } from "../../lib/polish";
+import albums from "../../data/albums.json";
+---
+
+<Base
+  title="Galeria"
+  description="Zdjęcia z polowań, uroczystości i życia Koła Łowieckiego Przepiórka."
+  path="/galeria/"
+>
+  <div class="wrap page-head">
+    <h1>Galeria</h1>
+    <p>Albumy z życia koła, od najnowszych.</p>
+  </div>
+  <section class="section" style="padding-top: 1rem">
+    <div class="wrap album-grid">
+      {
+        albums.map((album) => (
+          <a class="album-card" href={`/galeria/${album.slug}/`}>
+            {album.cover && (
+              <img src={album.cover.src} alt="" width={album.cover.width} height={album.cover.height} loading="lazy" decoding="async" />
+            )}
+            <span>
+              <small>{photoCount(album.photos.length)}</small>
+              <strong>{album.title}</strong>
+            </span>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</Base>

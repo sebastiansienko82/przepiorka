@@ -1,0 +1,53 @@
+{
+  "name": "Koło Łowieckie „Przepiórka”",
+  "shortName": "KŁ Przepiórka",
+  "place": "w Księżynie",
+  "greeting": "Darz Bór!",
+  "addressLines": [
+    "Księżyno kolonia 11",
+    "16-001 Kleosin"
+  ],
+  "regon": "050410064",
+  "nip": "542-196-07-34",
+  "logo": "/media/style/logo_przepiorka_500x500.png",
+  "homeImages": [
+    {
+      "src": "/media/images/St_Hubert.jpg",
+      "width": 948,
+      "height": 553,
+      "alt": "Święty Hubert"
+    },
+    {
+      "src": "/media/images/DSC_4815.jpg",
+      "width": 948,
+      "height": 469,
+      "alt": "Członkowie Koła Łowieckiego Przepiórka ze sztandarem"
+    }
+  ],
+  "marks": [
+    {
+      "src": "/media/images/Kl_przepiorka_70lat.png",
+      "width": 400,
+      "height": 400,
+      "alt": "Znak 70-lecia Koła Łowieckiego Przepiórka"
+    },
+    {
+      "src": "/media/images/Kl_przepiorka_70lat_p.png",
+      "width": 400,
+      "height": 400,
+      "alt": "Znak 70-lecia Koła Łowieckiego Przepiórka"
+    }
+  ],
+  "huntBook": {
+    "title": "EPI24 — Elektroniczna ewidencja polowań",
+    "url": "https://www.epi24.pl/przepiorka03/",
+    "android": "https://play.google.com/store/apps/details?id=com.Epi24",
+    "ios": "https://apps.apple.com/us/app/epi24/id133890444",
+    "image": {
+      "src": "/media/images/image001.png",
+      "width": 180,
+      "height": 180,
+      "alt": "Elektroniczna ewidencja polowań EPI24"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+---
+import Base from "../../layouts/Base.astro";
+import { photoCount } from "../../lib/polish";
+import albums from "../../data/albums.json";
+
+export function getStaticPaths() {
+  return albums.map((album) => ({
+    params: { slug: album.slug },
+    props: { album },
+  }));
+}
+
+const { album } = Astro.props;
+const description = `${album.title}. ${album.photos.length} zdjęć w galerii Koła Łowieckiego Przepiórka.`;
+---
+
+<Base title={album.title} description={description} path={`/galeria/${album.slug}/`}>
+  <div class="wrap page-head">
+    <p><a href="/galeria/">Galeria</a></p>
+    <h1>{album.title}</h1>
+    <p>{photoCount(album.photos.length)}</p>
+  </div>
+  <section class="section" style="padding-top: 0.5rem">
+    <div class="wrap photo-grid">
+      {
+        album.photos.map((photo, index) => (
+          <button type="button" data-index={index} aria-label={`Powiększ: ${album.title}, zdjęcie ${index + 1}`}>
+            <img
+              src={photo.src}
+              alt={`${album.title}, zdjęcie ${index + 1}`}
+              width={photo.width}
+              height={photo.height}
+              loading="lazy"
+              decoding="async"
+            />
+          </button>
+        ))
+      }
+    </div>
+  </section>
+
+  <dialog class="lightbox" aria-label={album.title}>
+    <div class="lightbox-frame">
+      <div class="lightbox-bar">
+        <p class="lightbox-count"></p>
+        <button type="button" class="lightbox-close">Zamknij</button>
+      </div>
+      <img alt="" />
+      <div class="lightbox-tools">
+        <button type="button" class="lightbox-prev">Poprzednie</button>
+        <button type="button" class="lightbox-next">Następne</button>
+      </div>
+    </div>
+  </dialog>
+
+  <script define:vars={{ photos: album.photos.map((photo, index) => ({ src: photo.src, alt: `${album.title}, zdjęcie ${index + 1}` })) }}>
+    const dialog = document.querySelector("dialog.lightbox");
+    const image = dialog?.querySelector("img");
+    const count = dialog?.querySelector(".lightbox-count");
+    const buttons = [...document.querySelectorAll(".photo-grid button")];
+    let current = 0;
+
+    const show = (index) => {
+      if (!dialog || !image || photos.length === 0) return;
+      current = (index + photos.length) % photos.length;
+      const photo = photos[current];
+      image.src = photo.src;
+      image.alt = photo.alt;
+      if (count) count.textContent = `${current + 1} / ${photos.length}`;
+      if (!dialog.open) dialog.showModal();
+    };
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => show(Number(button.dataset.index)));
+    });
+    dialog?.querySelector(".lightbox-close")?.addEventListener("click", () => dialog.close());
+    dialog?.querySelector(".lightbox-prev")?.addEventListener("click", () => show(current - 1));
+    dialog?.querySelector(".lightbox-next")?.addEventListener("click", () => show(current + 1));
+    dialog?.addEventListener("click", (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+    document.addEventListener("keydown", (event) => {
+      if (!dialog?.open) return;
+      if (event.key === "ArrowRight") show(current + 1);
+      if (event.key === "ArrowLeft") show(current - 1);
+    });
+  </script>
+</Base>

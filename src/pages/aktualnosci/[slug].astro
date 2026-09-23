@@ -1,0 +1,33 @@
+---
+import Base from "../../layouts/Base.astro";
+import news from "../../data/news.json";
+
+export function getStaticPaths() {
+  return news.map((item) => ({
+    params: { slug: item.slug },
+    props: { item },
+  }));
+}
+
+const { item } = Astro.props;
+---
+
+<Base title={item.title} description={item.excerpt} path={`/aktualnosci/${item.slug}/`}>
+  <article class="wrap page-head">
+    {item.dateLabel && <p><time datetime={item.date ?? undefined}>{item.dateLabel}</time></p>}
+    <h1>{item.title}</h1>
+    {
+      item.image && (
+        <img
+          class="lead-photo"
+          src={item.image.src}
+          alt={item.image.alt || item.title}
+          width={item.image.width}
+          height={item.image.height}
+        />
+      )
+    }
+    <div class="prose" set:html={item.html} />
+    <p><a href="/aktualnosci/">Wróć do aktualności</a></p>
+  </article>
+</Base>

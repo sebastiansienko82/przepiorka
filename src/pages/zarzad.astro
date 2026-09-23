@@ -1,0 +1,35 @@
+---
+import Base from "../layouts/Base.astro";
+import site from "../data/site.json";
+---
+
+<Base
+  title="Zarząd"
+  description={`Koło Łowieckie Przepiórka, ${site.addressLines.join(", ")}. REGON ${site.regon}, NIP ${site.nip}.`}
+  path="/zarzad/"
+>
+  <div class="wrap page-head">
+    <h1>Zarząd</h1>
+    <p>{site.name} {site.place}</p>
+  </div>
+  <section class="section" style="padding-top: 0.5rem">
+    <div class="wrap split">
+      <div class="panel">
+        <dl class="facts">
+          <dt>Adres</dt>
+          <dd>
+            {site.addressLines[0]}<br />
+            {site.addressLines[1]}
+          </dd>
+          <dt>REGON</dt>
+          <dd>{site.regon}</dd>
+          <dt>NIP</dt>
+          <dd>{site.nip}</dd>
+        </dl>
+      </div>
+      <div class="marks">
+        {site.marks.map((mark) => <img src={mark.src} alt={mark.alt} width={mark.width} height={mark.height} />)}
+      </div>
+    </div>
+  </section>
+</Base>

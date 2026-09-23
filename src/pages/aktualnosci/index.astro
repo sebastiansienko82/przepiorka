@@ -1,0 +1,33 @@
+---
+import Base from "../../layouts/Base.astro";
+import news from "../../data/news.json";
+---
+
+<Base
+  title="Aktualności"
+  description="Komunikaty, pisma i ogłoszenia Koła Łowieckiego Przepiórka w Księżynie."
+  path="/aktualnosci/"
+>
+  <div class="wrap page-head">
+    <h1>Aktualności</h1>
+    <p>Komunikaty i ogłoszenia koła, od najnowszych.</p>
+  </div>
+  <section class="section" style="padding-top: 1rem">
+    <div class="wrap card-grid">
+      {
+        news.map((item) => (
+          <a class="card" href={`/aktualnosci/${item.slug}/`}>
+            {item.image && (
+              <img class="card-photo" src={item.image.src} alt="" width={item.image.width} height={item.image.height} loading="lazy" />
+            )}
+            <span class="card-body">
+              {item.dateLabel && <time datetime={item.date ?? undefined}>{item.dateLabel}</time>}
+              <h2>{item.title}</h2>
+              <p>{item.excerpt}</p>
+            </span>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</Base>
