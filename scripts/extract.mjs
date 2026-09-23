@@ -96,12 +96,37 @@ function copyAsset(relativePath, destination) {
   return { file: destination, ...dims };
 }
 
-function resolveImage(relativePath) {
+function imageVariants(relativePath) {
   const clean = relativePath.replace(/^\//, "");
-  if (fs.existsSync(path.join(oldDir, clean))) return clean;
-  const thumb = clean.replace(/\.(jpe?g|png|webp)$/i, "_thumb.png");
-  if (thumb !== clean && fs.existsSync(path.join(oldDir, thumb))) return thumb;
-  return null;
+  const parsed = path.posix.parse(clean);
+  let base = parsed.name;
+  if (base.endsWith("_thumb")) base = base.slice(0, -"_thumb".length);
+  if (base.endsWith("_big")) base = base.slice(0, -"_big".length);
+  const extensions = [...new Set([parsed.ext.toLowerCase(), ".jpg", ".jpeg", ".png", ".webp"].filter(Boolean))];
+  const variants = [];
+  for (const ext of extensions) {
+    variants.push(path.posix.join(parsed.dir, `${base}${ext}`));
+    variants.push(path.posix.join(parsed.dir, `${base}_big${ext}`));
+  }
+  variants.push(clean, path.posix.join(parsed.dir, `${base}_thumb.png`));
+  return [...new Set(variants)];
+}
+
+function resolveImage(relativePath) {
+  let best = null;
+  let bestScore = -1;
+  for (const candidate of imageVariants(relativePath)) {
+    const full = path.join(oldDir, candidate);
+    if (!fs.existsSync(full) || !fs.statSync(full).isFile()) continue;
+    const dims = imageDimensions(full);
+    const pixels = (dims.width || 0) * (dims.height || 0);
+    const score = pixels + (candidate.includes("_thumb") ? 0 : 0.5);
+    if (score > bestScore) {
+      bestScore = score;
+      best = candidate;
+    }
+  }
+  return best;
 }
 
 function publicImage(relativePath) {
@@ -451,8 +476,8 @@ const albums = menuAlbums().map((item) => {
     if (!copied) continue;
     photos.push({
       src: copied.src,
-      width: photo.width || copied.width,
-      height: photo.height || copied.height,
+      width: copied.width || photo.width,
+      height: copied.height || photo.height,
       alt: photo.description || `${title}, zdjęcie ${index + 1}`,
     });
   }
