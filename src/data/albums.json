@@ -116,9 +116,9 @@
         "alt": "Polowanie Wigilijne 2025, zdjęcie 1"
       },
       {
-        "src": "/media/gallery/20251220_072741_thumb.png",
-        "width": 153,
-        "height": 153,
+        "src": "/media/gallery/20251220_072741.jpg",
+        "width": 1080,
+        "height": 810,
         "alt": "Polowanie Wigilijne 2025, zdjęcie 2"
       },
       {
@@ -140,9 +140,9 @@
         "alt": "Polowanie Wigilijne 2025, zdjęcie 5"
       },
       {
-        "src": "/media/gallery/20251220_112200_thumb.png",
-        "width": 153,
-        "height": 153,
+        "src": "/media/gallery/20251220_112200.jpg",
+        "width": 1080,
+        "height": 810,
         "alt": "Polowanie Wigilijne 2025, zdjęcie 6"
       },
       {
@@ -152,10 +152,16 @@
         "alt": "Polowanie Wigilijne 2025, zdjęcie 7"
       },
       {
-        "src": "/media/gallery/20251220_112216_thumb.png",
-        "width": 153,
-        "height": 153,
+        "src": "/media/gallery/20251220_112216.jpg",
+        "width": 1080,
+        "height": 810,
         "alt": "Polowanie Wigilijne 2025, zdjęcie 8"
+      },
+      {
+        "src": "/media/gallery/20251220_112222.jpg",
+        "width": 1080,
+        "height": 810,
+        "alt": "Polowanie Wigilijne 2025, zdjęcie 9"
       },
       {
         "src": "/media/gallery/20251220_112224.jpg",
@@ -176,9 +182,9 @@
         "alt": "Polowanie Wigilijne 2025, zdjęcie 12"
       },
       {
-        "src": "/media/gallery/20251220_130341_thumb.png",
-        "width": 153,
-        "height": 153,
+        "src": "/media/gallery/20251220_130341.jpg",
+        "width": 1080,
+        "height": 810,
         "alt": "Polowanie Wigilijne 2025, zdjęcie 13"
       },
       {
@@ -200,9 +206,9 @@
         "alt": "Polowanie Wigilijne 2025, zdjęcie 16"
       },
       {
-        "src": "/media/gallery/20251220_150815_thumb.png",
-        "width": 153,
-        "height": 153,
+        "src": "/media/gallery/20251220_150815.jpg",
+        "width": 1080,
+        "height": 810,
         "alt": "Polowanie Wigilijne 2025, zdjęcie 17"
       },
       {
@@ -270,6 +276,12 @@
         "width": 1080,
         "height": 810,
         "alt": "Polowanie Wigilijne 2025, zdjęcie 28"
+      },
+      {
+        "src": "/media/gallery/20251220_152629.jpg",
+        "width": 1080,
+        "height": 810,
+        "alt": "Polowanie Wigilijne 2025, zdjęcie 29"
       },
       {
         "src": "/media/gallery/20251220_152631.jpg",
@@ -358,6 +370,12 @@
         "alt": "Polowanie Wigilijne 2024, zdjęcie 5"
       },
       {
+        "src": "/media/gallery/20241221_072933.jpg",
+        "width": 1080,
+        "height": 810,
+        "alt": "Polowanie Wigilijne 2024, zdjęcie 6"
+      },
+      {
         "src": "/media/gallery/20241221_072950.jpg",
         "width": 1080,
         "height": 810,
@@ -370,9 +388,9 @@
         "alt": "Polowanie Wigilijne 2024, zdjęcie 8"
       },
       {
-        "src": "/media/gallery/20241221_150037_thumb.png",
-        "width": 153,
-        "height": 153,
+        "src": "/media/gallery/20241221_150037.jpg",
+        "width": 1080,
+        "height": 810,
         "alt": "Polowanie Wigilijne 2024, zdjęcie 9"
       },
       {
@@ -382,9 +400,9 @@
         "alt": "Polowanie Wigilijne 2024, zdjęcie 10"
       },
       {
-        "src": "/media/gallery/20241221_151547_thumb.png",
-        "width": 153,
-        "height": 153,
+        "src": "/media/gallery/20241221_151547.jpg",
+        "width": 1080,
+        "height": 810,
         "alt": "Polowanie Wigilijne 2024, zdjęcie 11"
       },
       {
@@ -406,15 +424,21 @@
         "alt": "Polowanie Wigilijne 2024, zdjęcie 14"
       },
       {
+        "src": "/media/gallery/20241221_152836.jpg",
+        "width": 1080,
+        "height": 810,
+        "alt": "Polowanie Wigilijne 2024, zdjęcie 15"
+      },
+      {
         "src": "/media/gallery/20241221_153013.jpg",
         "width": 1080,
         "height": 810,
         "alt": "Polowanie Wigilijne 2024, zdjęcie 16"
       },
       {
-        "src": "/media/gallery/20241221_153042_thumb.png",
-        "width": 153,
-        "height": 153,
+        "src": "/media/gallery/20241221_153042.jpg",
+        "width": 1080,
+        "height": 810,
         "alt": "Polowanie Wigilijne 2024, zdjęcie 17"
       },
       {
@@ -498,6 +522,18 @@
         "alt": "Polowanie Hubertowskie 2024 Obw. 180, zdjęcie 3"
       },
       {
+        "src": "/media/gallery/Polowanie_Hubertowskie_2024_Obw_180--5-_w0vcgdey.jpg",
+        "width": 1024,
+        "height": 681,
+        "alt": "Polowanie Hubertowskie 2024 Obw. 180, zdjęcie 4"
+      },
+      {
+        "src": "/media/gallery/Polowanie_Hubertowskie_2024_Obw_180--6-_5q3pjxtm.jpg",
+        "width": 1024,
+        "height": 681,
+        "alt": "Polowanie Hubertowskie 2024 Obw. 180, zdjęcie 5"
+      },
+      {
         "src": "/media/gallery/Polowanie_Hubertowskie_2024_Obw_180--7-_trdwrjav.jpg",
         "width": 1024,
         "height": 681,
@@ -508,6 +544,12 @@
         "width": 1024,
         "height": 681,
         "alt": "Polowanie Hubertowskie 2024 Obw. 180, zdjęcie 7"
+      },
+      {
+        "src": "/media/gallery/Polowanie_Hubertowskie_2024_Obw_180--9-_mxa37x02.jpg",
+        "width": 1024,
+        "height": 681,
+        "alt": "Polowanie Hubertowskie 2024 Obw. 180, zdjęcie 8"
       },
       {
         "src": "/media/gallery/Polowanie_Hubertowskie_2024_Obw_180--10-_0l8z5y7u.jpg",
@@ -600,6 +642,12 @@
         "alt": "Polowanie Hubertowskie 2024 Obw. 180, zdjęcie 23"
       },
       {
+        "src": "/media/gallery/Polowanie_Hubertowskie_2024_Obw_180--25-_2cygn2ql.jpg",
+        "width": 1024,
+        "height": 681,
+        "alt": "Polowanie Hubertowskie 2024 Obw. 180, zdjęcie 24"
+      },
+      {
         "src": "/media/gallery/Polowanie_Hubertowskie_2024_Obw_180--26-_hlywqqqv.jpg",
         "width": 1024,
         "height": 681,
@@ -624,22 +672,22 @@
     "title": "Przechody 2024 - widać efekty zaangażowania kolegów",
     "source": "przechody-2024---wida--efekty-zaanga-owania-kolegow.html",
     "cover": {
-      "src": "/media/gallery/20240821_175143_thumb.png",
-      "width": 127,
-      "height": 127,
+      "src": "/media/gallery/20240821_175143.jpg",
+      "width": 576,
+      "height": 768,
       "alt": "Przechody 2024 - widać efekty zaangażowania kolegów, zdjęcie 1"
     },
     "photos": [
       {
-        "src": "/media/gallery/20240821_175143_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/20240821_175143.jpg",
+        "width": 576,
+        "height": 768,
         "alt": "Przechody 2024 - widać efekty zaangażowania kolegów, zdjęcie 1"
       },
       {
-        "src": "/media/gallery/20240821_175231_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/20240821_175231.jpg",
+        "width": 576,
+        "height": 768,
         "alt": "Przechody 2024 - widać efekty zaangażowania kolegów, zdjęcie 2"
       },
       {
@@ -655,9 +703,9 @@
         "alt": "Przechody 2024 - widać efekty zaangażowania kolegów, zdjęcie 5"
       },
       {
-        "src": "/media/gallery/20240821_175056_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/20240821_175056.jpg",
+        "width": 576,
+        "height": 768,
         "alt": "Przechody 2024 - widać efekty zaangażowania kolegów, zdjęcie 6"
       },
       {
@@ -685,16 +733,16 @@
     "title": "Polowanie Wigilijne 2023",
     "source": "polowanie-wigilijne-2023.html",
     "cover": {
-      "src": "/media/gallery/20231216_071804.jpg",
-      "width": 722,
-      "height": 541,
+      "src": "/media/gallery/20231216_071804_big.jpg",
+      "width": 1024,
+      "height": 768,
       "alt": "Polowanie Wigilijne 2023, zdjęcie 1"
     },
     "photos": [
       {
-        "src": "/media/gallery/20231216_071804.jpg",
-        "width": 722,
-        "height": 541,
+        "src": "/media/gallery/20231216_071804_big.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie Wigilijne 2023, zdjęcie 1"
       },
       {
@@ -704,9 +752,9 @@
         "alt": "Polowanie Wigilijne 2023, zdjęcie 2"
       },
       {
-        "src": "/media/gallery/20231216_071810.jpg",
-        "width": 722,
-        "height": 541,
+        "src": "/media/gallery/20231216_071810_big.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie Wigilijne 2023, zdjęcie 3"
       },
       {
@@ -716,9 +764,9 @@
         "alt": "Polowanie Wigilijne 2023, zdjęcie 6"
       },
       {
-        "src": "/media/gallery/20231216_142021.jpg",
-        "width": 722,
-        "height": 541,
+        "src": "/media/gallery/20231216_142021_big.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie Wigilijne 2023, zdjęcie 7"
       },
       {
@@ -728,9 +776,9 @@
         "alt": "Polowanie Wigilijne 2023, zdjęcie 8"
       },
       {
-        "src": "/media/gallery/20231216_142208.jpg",
-        "width": 722,
-        "height": 541,
+        "src": "/media/gallery/20231216_142208_big.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie Wigilijne 2023, zdjęcie 9"
       },
       {
@@ -752,9 +800,9 @@
         "alt": "Polowanie Wigilijne 2023, zdjęcie 12"
       },
       {
-        "src": "/media/gallery/20231216_142253.jpg",
-        "width": 722,
-        "height": 541,
+        "src": "/media/gallery/20231216_142253_big.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie Wigilijne 2023, zdjęcie 13"
       },
       {
@@ -764,9 +812,9 @@
         "alt": "Polowanie Wigilijne 2023, zdjęcie 14"
       },
       {
-        "src": "/media/gallery/20231216_142325.jpg",
-        "width": 722,
-        "height": 541,
+        "src": "/media/gallery/20231216_142325_big.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie Wigilijne 2023, zdjęcie 15"
       },
       {
@@ -788,9 +836,9 @@
         "alt": "Polowanie Wigilijne 2023, zdjęcie 18"
       },
       {
-        "src": "/media/gallery/20231216_144610.jpg",
-        "width": 722,
-        "height": 541,
+        "src": "/media/gallery/20231216_144610_big.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie Wigilijne 2023, zdjęcie 19"
       },
       {
@@ -806,21 +854,21 @@
         "alt": "Polowanie Wigilijne 2023, zdjęcie 21"
       },
       {
-        "src": "/media/gallery/20231216_144622_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/20231216_144622_big.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie Wigilijne 2023, zdjęcie 22"
       },
       {
-        "src": "/media/gallery/20231216_144644.jpg",
-        "width": 722,
-        "height": 541,
+        "src": "/media/gallery/20231216_144644_big.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie Wigilijne 2023, zdjęcie 23"
       },
       {
-        "src": "/media/gallery/20231216_144648.jpg",
-        "width": 722,
-        "height": 541,
+        "src": "/media/gallery/20231216_144648_big.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie Wigilijne 2023, zdjęcie 24"
       }
     ]
@@ -830,16 +878,16 @@
     "title": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023",
     "source": "wy-wi-cenie-o-tarza--wi-tego-huberta-2-3-grudnia-2023.html",
     "cover": {
-      "src": "/media/gallery/DSC03327_thumb.png",
-      "width": 192,
-      "height": 192,
+      "src": "/media/gallery/DSC03327.jpg",
+      "width": 754,
+      "height": 503,
       "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 1"
     },
     "photos": [
       {
-        "src": "/media/gallery/DSC03327_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03327.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 1"
       },
       {
@@ -867,9 +915,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 6"
       },
       {
-        "src": "/media/gallery/DSC03334_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03334.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 7"
       },
       {
@@ -903,9 +951,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 12"
       },
       {
-        "src": "/media/gallery/DSC03340_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03340.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 13"
       },
       {
@@ -921,9 +969,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 15"
       },
       {
-        "src": "/media/gallery/DSC03346_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03346.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 16"
       },
       {
@@ -1011,9 +1059,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 30"
       },
       {
-        "src": "/media/gallery/DSC03366_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03366.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 31"
       },
       {
@@ -1029,9 +1077,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 34"
       },
       {
-        "src": "/media/gallery/DSC03370_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03370.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 35"
       },
       {
@@ -1041,9 +1089,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 36"
       },
       {
-        "src": "/media/gallery/DSC03375_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03375.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 37"
       },
       {
@@ -1101,9 +1149,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 49"
       },
       {
-        "src": "/media/gallery/DSC03393_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03393.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 50"
       },
       {
@@ -1113,15 +1161,15 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 51"
       },
       {
-        "src": "/media/gallery/DSC03397_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03397.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 52"
       },
       {
-        "src": "/media/gallery/DSC03398_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03398.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 53"
       },
       {
@@ -1137,9 +1185,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 55"
       },
       {
-        "src": "/media/gallery/DSC03401_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03401.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 56"
       },
       {
@@ -1149,9 +1197,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 57"
       },
       {
-        "src": "/media/gallery/DSC03403_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03403.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 58"
       },
       {
@@ -1197,15 +1245,15 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 65"
       },
       {
-        "src": "/media/gallery/DSC03414_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03414.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 66"
       },
       {
-        "src": "/media/gallery/DSC03415_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03415.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 67"
       },
       {
@@ -1215,9 +1263,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 68"
       },
       {
-        "src": "/media/gallery/DSC03417_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03417.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 69"
       },
       {
@@ -1239,9 +1287,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 72"
       },
       {
-        "src": "/media/gallery/DSC03422_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03422.jpg",
+        "width": 377,
+        "height": 565,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 73"
       },
       {
@@ -1293,15 +1341,15 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 82"
       },
       {
-        "src": "/media/gallery/DSC03434_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03434.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 83"
       },
       {
-        "src": "/media/gallery/DSC03436_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03436.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 84"
       },
       {
@@ -1317,9 +1365,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 86"
       },
       {
-        "src": "/media/gallery/DSC03443_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03443.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 87"
       },
       {
@@ -1437,9 +1485,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 108"
       },
       {
-        "src": "/media/gallery/DSC03479_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03479.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 109"
       },
       {
@@ -1455,9 +1503,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 111"
       },
       {
-        "src": "/media/gallery/DSC03482_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03482.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 112"
       },
       {
@@ -1491,15 +1539,15 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 118"
       },
       {
-        "src": "/media/gallery/DSC03492_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03492.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 119"
       },
       {
-        "src": "/media/gallery/DSC03493_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03493.jpg",
+        "width": 754,
+        "height": 503,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 120"
       },
       {
@@ -1533,9 +1581,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 126"
       },
       {
-        "src": "/media/gallery/DSC03500_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03500.jpg",
+        "width": 565,
+        "height": 565,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 127"
       },
       {
@@ -1545,9 +1593,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 128"
       },
       {
-        "src": "/media/gallery/DSC03502_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03502.jpg",
+        "width": 565,
+        "height": 565,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 129"
       },
       {
@@ -1557,9 +1605,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 130"
       },
       {
-        "src": "/media/gallery/DSC03504_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC03504.jpg",
+        "width": 565,
+        "height": 565,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 131"
       },
       {
@@ -1575,9 +1623,9 @@
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 133"
       },
       {
-        "src": "/media/gallery/DSC035097_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/DSC035097.jpg",
+        "width": 565,
+        "height": 565,
         "alt": "Wyświęcenie Ołtarza Świętego Huberta 2-3 grudnia 2023, zdjęcie 134"
       }
     ]
@@ -1587,16 +1635,16 @@
     "title": "Polowanie Wigilijne 17.12.2022",
     "source": "polowanie--wigilijne-17.12.2022.html",
     "cover": {
-      "src": "/media/gallery/Polowanie__-Wigilijne_12172201.jpg",
-      "width": 778,
-      "height": 489,
+      "src": "/media/gallery/Polowanie__-Wigilijne_12172201_big.jpg",
+      "width": 1280,
+      "height": 805,
       "alt": "Polowanie Wigilijne 17.12.2022, zdjęcie 1"
     },
     "photos": [
       {
-        "src": "/media/gallery/Polowanie__-Wigilijne_12172201.jpg",
-        "width": 778,
-        "height": 489,
+        "src": "/media/gallery/Polowanie__-Wigilijne_12172201_big.jpg",
+        "width": 1280,
+        "height": 805,
         "alt": "Polowanie Wigilijne 17.12.2022, zdjęcie 1"
       },
       {
@@ -1606,9 +1654,9 @@
         "alt": "Polowanie Wigilijne 17.12.2022, zdjęcie 2"
       },
       {
-        "src": "/media/gallery/Polowanie__-Wigilijne_12172204.jpg",
-        "width": 583,
-        "height": 583,
+        "src": "/media/gallery/Polowanie__-Wigilijne_12172204_big.jpg",
+        "width": 960,
+        "height": 960,
         "alt": "Polowanie Wigilijne 17.12.2022, zdjęcie 3"
       },
       {
@@ -1618,9 +1666,9 @@
         "alt": "Polowanie Wigilijne 17.12.2022, zdjęcie 4"
       },
       {
-        "src": "/media/gallery/Polowanie__-Wigilijne_12172207.jpg",
-        "width": 583,
-        "height": 583,
+        "src": "/media/gallery/Polowanie__-Wigilijne_12172207_big.jpg",
+        "width": 960,
+        "height": 960,
         "alt": "Polowanie Wigilijne 17.12.2022, zdjęcie 5"
       },
       {
@@ -1630,9 +1678,9 @@
         "alt": "Polowanie Wigilijne 17.12.2022, zdjęcie 6"
       },
       {
-        "src": "/media/gallery/Polowanie__-Wigilijne_12172209_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/Polowanie__-Wigilijne_12172209_big.jpg",
+        "width": 960,
+        "height": 960,
         "alt": "Polowanie Wigilijne 17.12.2022, zdjęcie 7"
       },
       {
@@ -1648,9 +1696,9 @@
         "alt": "Polowanie Wigilijne 17.12.2022, zdjęcie 9"
       },
       {
-        "src": "/media/gallery/Polowanie__-Wigilijne_12172212.jpg",
-        "width": 698,
-        "height": 583,
+        "src": "/media/gallery/Polowanie__-Wigilijne_12172212_big.jpg",
+        "width": 1149,
+        "height": 960,
         "alt": "Polowanie Wigilijne 17.12.2022, zdjęcie 10"
       },
       {
@@ -1672,9 +1720,9 @@
         "alt": "Polowanie Wigilijne 17.12.2022, zdjęcie 13"
       },
       {
-        "src": "/media/gallery/Polowanie__-Wigilijne_12172215.jpg",
-        "width": 583,
-        "height": 583,
+        "src": "/media/gallery/Polowanie__-Wigilijne_12172215_big.jpg",
+        "width": 960,
+        "height": 960,
         "alt": "Polowanie Wigilijne 17.12.2022, zdjęcie 14"
       },
       {
@@ -1684,9 +1732,9 @@
         "alt": "Polowanie Wigilijne 17.12.2022, zdjęcie 15"
       },
       {
-        "src": "/media/gallery/Polowanie__-Wigilijne_12172217.jpg",
-        "width": 583,
-        "height": 583,
+        "src": "/media/gallery/Polowanie__-Wigilijne_12172217_big.jpg",
+        "width": 960,
+        "height": 960,
         "alt": "Polowanie Wigilijne 17.12.2022, zdjęcie 16"
       },
       {
@@ -1696,15 +1744,15 @@
         "alt": "Polowanie Wigilijne 17.12.2022, zdjęcie 17"
       },
       {
-        "src": "/media/gallery/Polowanie__-Wigilijne_12172222_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/Polowanie__-Wigilijne_12172222_big.jpg",
+        "width": 960,
+        "height": 960,
         "alt": "Polowanie Wigilijne 17.12.2022, zdjęcie 18"
       },
       {
-        "src": "/media/gallery/Polowanie__-Wigilijne_12172224.jpg",
-        "width": 583,
-        "height": 583,
+        "src": "/media/gallery/Polowanie__-Wigilijne_12172224_big.jpg",
+        "width": 960,
+        "height": 960,
         "alt": "Polowanie Wigilijne 17.12.2022, zdjęcie 19"
       },
       {
@@ -1841,9 +1889,9 @@
         "alt": "Polowanie Zbiorowe 03.12.2022, zdjęcie 7"
       },
       {
-        "src": "/media/gallery/20221203_154417_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/20221203_154417.jpg",
+        "width": 583,
+        "height": 583,
         "alt": "Polowanie Zbiorowe 03.12.2022, zdjęcie 8"
       },
       {
@@ -1859,15 +1907,15 @@
         "alt": "Polowanie Zbiorowe 03.12.2022, zdjęcie 10"
       },
       {
-        "src": "/media/gallery/20221203_154450_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/20221203_154450.jpg",
+        "width": 583,
+        "height": 583,
         "alt": "Polowanie Zbiorowe 03.12.2022, zdjęcie 11"
       },
       {
-        "src": "/media/gallery/20221203_154637_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/20221203_154637.jpg",
+        "width": 583,
+        "height": 583,
         "alt": "Polowanie Zbiorowe 03.12.2022, zdjęcie 13"
       },
       {
@@ -1877,9 +1925,9 @@
         "alt": "Polowanie Zbiorowe 03.12.2022, zdjęcie 14"
       },
       {
-        "src": "/media/gallery/20221203_154641_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/20221203_154641.jpg",
+        "width": 583,
+        "height": 583,
         "alt": "Polowanie Zbiorowe 03.12.2022, zdjęcie 15"
       }
     ]
@@ -1920,9 +1968,9 @@
         "alt": "Polowanie wigilijne 2021, zdjęcie 4"
       },
       {
-        "src": "/media/gallery/Polowanie-wigilijne-2021--5-.jpg",
-        "width": 778,
-        "height": 583,
+        "src": "/media/gallery/Polowanie-wigilijne-2021--5-_big.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie wigilijne 2021, zdjęcie 5"
       },
       {
@@ -1944,15 +1992,15 @@
         "alt": "Polowanie wigilijne 2021, zdjęcie 9"
       },
       {
-        "src": "/media/gallery/Polowanie-wigilijne-2021--10-.jpg",
-        "width": 778,
-        "height": 583,
+        "src": "/media/gallery/Polowanie-wigilijne-2021--10-_big.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie wigilijne 2021, zdjęcie 10"
       },
       {
-        "src": "/media/gallery/Polowanie-wigilijne-2021--11-_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/Polowanie-wigilijne-2021--11-_big.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie wigilijne 2021, zdjęcie 11"
       },
       {
@@ -1962,9 +2010,9 @@
         "alt": "Polowanie wigilijne 2021, zdjęcie 12"
       },
       {
-        "src": "/media/gallery/Polowanie-wigilijne-2021--15-.jpg",
-        "width": 778,
-        "height": 583,
+        "src": "/media/gallery/Polowanie-wigilijne-2021--15-_big.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie wigilijne 2021, zdjęcie 15"
       },
       {
@@ -1974,9 +2022,9 @@
         "alt": "Polowanie wigilijne 2021, zdjęcie 16"
       },
       {
-        "src": "/media/gallery/Polowanie-wigilijne-2021--17-.jpg",
-        "width": 778,
-        "height": 583,
+        "src": "/media/gallery/Polowanie-wigilijne-2021--17-_big.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie wigilijne 2021, zdjęcie 17"
       },
       {
@@ -2016,9 +2064,9 @@
         "alt": "Polowanie wigilijne 2021, zdjęcie 23"
       },
       {
-        "src": "/media/gallery/Polowanie-wigilijne-2021--24-.jpg",
-        "width": 438,
-        "height": 583,
+        "src": "/media/gallery/Polowanie-wigilijne-2021--24-_big.jpg",
+        "width": 576,
+        "height": 768,
         "alt": "Polowanie wigilijne 2021, zdjęcie 24"
       },
       {
@@ -2034,9 +2082,9 @@
         "alt": "Polowanie wigilijne 2021, zdjęcie 26"
       },
       {
-        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_1.jpg",
-        "width": 778,
-        "height": 518,
+        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_1_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie wigilijne 2021, zdjęcie 27"
       },
       {
@@ -2046,9 +2094,9 @@
         "alt": "Polowanie wigilijne 2021, zdjęcie 28"
       },
       {
-        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_3.jpg",
-        "width": 778,
-        "height": 518,
+        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_3_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie wigilijne 2021, zdjęcie 29"
       },
       {
@@ -2064,9 +2112,9 @@
         "alt": "Polowanie wigilijne 2021, zdjęcie 31"
       },
       {
-        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_6_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_6_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie wigilijne 2021, zdjęcie 32"
       },
       {
@@ -2076,15 +2124,15 @@
         "alt": "Polowanie wigilijne 2021, zdjęcie 33"
       },
       {
-        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_8_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_8_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie wigilijne 2021, zdjęcie 34"
       },
       {
-        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_9_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_9_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie wigilijne 2021, zdjęcie 35"
       },
       {
@@ -2100,9 +2148,9 @@
         "alt": "Polowanie wigilijne 2021, zdjęcie 37"
       },
       {
-        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_12.jpg",
-        "width": 778,
-        "height": 518,
+        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_12_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie wigilijne 2021, zdjęcie 38"
       },
       {
@@ -2124,9 +2172,9 @@
         "alt": "Polowanie wigilijne 2021, zdjęcie 41"
       },
       {
-        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_16.jpg",
-        "width": 778,
-        "height": 518,
+        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_16_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie wigilijne 2021, zdjęcie 42"
       },
       {
@@ -2142,15 +2190,15 @@
         "alt": "Polowanie wigilijne 2021, zdjęcie 44"
       },
       {
-        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_19.jpg",
-        "width": 778,
-        "height": 518,
+        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_19_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie wigilijne 2021, zdjęcie 45"
       },
       {
-        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_20_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_20_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie wigilijne 2021, zdjęcie 46"
       },
       {
@@ -2160,9 +2208,9 @@
         "alt": "Polowanie wigilijne 2021, zdjęcie 47"
       },
       {
-        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_22.jpg",
-        "width": 778,
-        "height": 518,
+        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_22_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie wigilijne 2021, zdjęcie 48"
       },
       {
@@ -2184,15 +2232,15 @@
         "alt": "Polowanie wigilijne 2021, zdjęcie 51"
       },
       {
-        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_26_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_26_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie wigilijne 2021, zdjęcie 52"
       },
       {
-        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_27.jpg",
-        "width": 778,
-        "height": 518,
+        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_27_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie wigilijne 2021, zdjęcie 53"
       },
       {
@@ -2220,9 +2268,9 @@
         "alt": "Polowanie wigilijne 2021, zdjęcie 58"
       },
       {
-        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_33_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/Polowanie_Wigilijne19122021_201_33_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie wigilijne 2021, zdjęcie 59"
       }
     ]
@@ -2232,16 +2280,16 @@
     "title": "Polowanie 11-12 grudnia 2021",
     "source": "polowanie-11-12-grudnia-2021.html",
     "cover": {
-      "src": "/media/gallery/20211212_152835_thumb.png",
-      "width": 192,
-      "height": 192,
+      "src": "/media/gallery/20211212_152835_big.jpg",
+      "width": 1024,
+      "height": 768,
       "alt": "Polowanie 11-12 grudnia 2021, zdjęcie 2"
     },
     "photos": [
       {
-        "src": "/media/gallery/20211212_152835_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/20211212_152835_big.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie 11-12 grudnia 2021, zdjęcie 2"
       },
       {
@@ -2263,9 +2311,9 @@
         "alt": "Polowanie 11-12 grudnia 2021, zdjęcie 5"
       },
       {
-        "src": "/media/gallery/20211212_154018.jpg",
-        "width": 778,
-        "height": 583,
+        "src": "/media/gallery/20211212_154018_big.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie 11-12 grudnia 2021, zdjęcie 6"
       },
       {
@@ -2348,9 +2396,9 @@
         "alt": "Polowanie zbiorowe Hubertus obwodu 199 - 13.11.2021, zdjęcie 8"
       },
       {
-        "src": "/media/gallery/Polowanie-zbiorowe-Hubertus-obw199_13112021_09.jpg",
-        "width": 778,
-        "height": 518,
+        "src": "/media/gallery/Polowanie-zbiorowe-Hubertus-obw199_13112021_09_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie zbiorowe Hubertus obwodu 199 - 13.11.2021, zdjęcie 9"
       },
       {
@@ -2360,21 +2408,21 @@
         "alt": "Polowanie zbiorowe Hubertus obwodu 199 - 13.11.2021, zdjęcie 10"
       },
       {
-        "src": "/media/gallery/Polowanie-zbiorowe-Hubertus-obw199_13112021_11_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/Polowanie-zbiorowe-Hubertus-obw199_13112021_11_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie zbiorowe Hubertus obwodu 199 - 13.11.2021, zdjęcie 11"
       },
       {
-        "src": "/media/gallery/Polowanie-zbiorowe-Hubertus-obw199_13112021_12_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/Polowanie-zbiorowe-Hubertus-obw199_13112021_12_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie zbiorowe Hubertus obwodu 199 - 13.11.2021, zdjęcie 12"
       },
       {
-        "src": "/media/gallery/Polowanie-zbiorowe-Hubertus-obw199_13112021_13.jpg",
-        "width": 778,
-        "height": 518,
+        "src": "/media/gallery/Polowanie-zbiorowe-Hubertus-obw199_13112021_13_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie zbiorowe Hubertus obwodu 199 - 13.11.2021, zdjęcie 13"
       },
       {
@@ -2396,9 +2444,9 @@
         "alt": "Polowanie zbiorowe Hubertus obwodu 199 - 13.11.2021, zdjęcie 16"
       },
       {
-        "src": "/media/gallery/Polowanie-zbiorowe-Hubertus-obw199_13112021_17.jpg",
-        "width": 778,
-        "height": 518,
+        "src": "/media/gallery/Polowanie-zbiorowe-Hubertus-obw199_13112021_17_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie zbiorowe Hubertus obwodu 199 - 13.11.2021, zdjęcie 17"
       },
       {
@@ -2414,9 +2462,9 @@
         "alt": "Polowanie zbiorowe Hubertus obwodu 199 - 13.11.2021, zdjęcie 19"
       },
       {
-        "src": "/media/gallery/Polowanie-zbiorowe-Hubertus-obw199_13112021_20_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/Polowanie-zbiorowe-Hubertus-obw199_13112021_20_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie zbiorowe Hubertus obwodu 199 - 13.11.2021, zdjęcie 20"
       },
       {
@@ -2426,9 +2474,9 @@
         "alt": "Polowanie zbiorowe Hubertus obwodu 199 - 13.11.2021, zdjęcie 21"
       },
       {
-        "src": "/media/gallery/Polowanie-zbiorowe-Hubertus-obw199_13112021_22.jpg",
-        "width": 778,
-        "height": 518,
+        "src": "/media/gallery/Polowanie-zbiorowe-Hubertus-obw199_13112021_22_big.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie zbiorowe Hubertus obwodu 199 - 13.11.2021, zdjęcie 22"
       },
       {
@@ -2463,9 +2511,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 2"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0003_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0003_big.jpg",
+        "width": 1024,
+        "height": 685,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 3"
       },
       {
@@ -2499,21 +2547,21 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 8"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0009.jpg",
-        "width": 417,
-        "height": 583,
+        "src": "/media/gallery/70ROCZNICA_0009_big.jpg",
+        "width": 549,
+        "height": 768,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 9"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0010.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0010_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 10"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0011.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0011_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 11"
       },
       {
@@ -2529,9 +2577,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 13"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0014.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0014_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 14"
       },
       {
@@ -2559,21 +2607,21 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 18"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0019.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0019_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 19"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0020.jpg",
-        "width": 417,
-        "height": 583,
+        "src": "/media/gallery/70ROCZNICA_0020_big.jpg",
+        "width": 549,
+        "height": 768,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 20"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0021.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0021_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 21"
       },
       {
@@ -2583,9 +2631,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 22"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0023.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0023_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 23"
       },
       {
@@ -2601,9 +2649,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 25"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0028.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0028_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 28"
       },
       {
@@ -2613,9 +2661,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 29"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0030.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0030_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 30"
       },
       {
@@ -2649,9 +2697,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 35"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0036.jpg",
-        "width": 778,
-        "height": 557,
+        "src": "/media/gallery/70ROCZNICA_0036_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 36"
       },
       {
@@ -2667,9 +2715,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 38"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0039.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0039_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 39"
       },
       {
@@ -2685,9 +2733,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 41"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0042_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0042_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 42"
       },
       {
@@ -2697,9 +2745,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 43"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0045.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0045_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 45"
       },
       {
@@ -2715,9 +2763,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 47"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0049.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0049_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 49"
       },
       {
@@ -2739,9 +2787,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 52"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0053.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0053_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 53"
       },
       {
@@ -2751,15 +2799,15 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 54"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0055.jpg",
-        "width": 417,
-        "height": 583,
+        "src": "/media/gallery/70ROCZNICA_0055_big.jpg",
+        "width": 549,
+        "height": 768,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 55"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0056.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0056_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 56"
       },
       {
@@ -2769,9 +2817,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 57"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0058_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0058_big.jpg",
+        "width": 549,
+        "height": 768,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 58"
       },
       {
@@ -2787,9 +2835,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 60"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0061_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0061_big.jpg",
+        "width": 549,
+        "height": 768,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 61"
       },
       {
@@ -2811,9 +2859,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 64"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0065_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0065_big.jpg",
+        "width": 549,
+        "height": 768,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 65"
       },
       {
@@ -2829,9 +2877,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 67"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0068.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0068_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 68"
       },
       {
@@ -2877,9 +2925,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 75"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0076.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0076_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 76"
       },
       {
@@ -2931,9 +2979,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 88"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0089.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0089_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 89"
       },
       {
@@ -2961,9 +3009,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 93"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0094.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0094_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 94"
       },
       {
@@ -2973,9 +3021,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 95"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0096.jpg",
-        "width": 778,
-        "height": 557,
+        "src": "/media/gallery/70ROCZNICA_0096_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 96"
       },
       {
@@ -2991,21 +3039,21 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 98"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0099_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0099_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 99"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0100.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0100_big.jpg",
+        "width": 1024,
+        "height": 685,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 100"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0101.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0101_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 101"
       },
       {
@@ -3015,9 +3063,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 102"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0103.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0103_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 103"
       },
       {
@@ -3069,9 +3117,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 111"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0112_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0112_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 112"
       },
       {
@@ -3087,9 +3135,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 114"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0115.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0115_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 115"
       },
       {
@@ -3171,9 +3219,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 128"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0129.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0129_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 129"
       },
       {
@@ -3189,9 +3237,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 132"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0133_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0133_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 133"
       },
       {
@@ -3219,9 +3267,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 137"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0138.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0138_big.jpg",
+        "width": 1024,
+        "height": 731,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 138"
       },
       {
@@ -3237,9 +3285,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 140"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0141_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0141_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 141"
       },
       {
@@ -3261,9 +3309,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 144"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0146_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0146_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 146"
       },
       {
@@ -3273,9 +3321,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 147"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0148.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0148_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 148"
       },
       {
@@ -3321,9 +3369,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 155"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0156_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0156_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 156"
       },
       {
@@ -3333,9 +3381,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 157"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0158.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0158_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 158"
       },
       {
@@ -3363,9 +3411,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 162"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0163.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0163_big.jpg",
+        "width": 1024,
+        "height": 731,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 163"
       },
       {
@@ -3393,9 +3441,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 168"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0169.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0169_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 169"
       },
       {
@@ -3411,9 +3459,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 171"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0172.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0172_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 172"
       },
       {
@@ -3459,15 +3507,15 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 179"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0180.jpg",
-        "width": 778,
-        "height": 557,
+        "src": "/media/gallery/70ROCZNICA_0180_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 180"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0181_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0181_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 181"
       },
       {
@@ -3483,9 +3531,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 183"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0184.jpg",
-        "width": 418,
-        "height": 583,
+        "src": "/media/gallery/70ROCZNICA_0184_big.jpg",
+        "width": 549,
+        "height": 768,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 184"
       },
       {
@@ -3507,9 +3555,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 188"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0189.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0189_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 189"
       },
       {
@@ -3525,15 +3573,15 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 191"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0192.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0192_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 192"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0193.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0193_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 193"
       },
       {
@@ -3549,9 +3597,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 195"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0196_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0196_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 196"
       },
       {
@@ -3591,15 +3639,15 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 202"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0203.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0203_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 203"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0206.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0206_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 206"
       },
       {
@@ -3627,9 +3675,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 210"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0211.jpg",
-        "width": 778,
-        "height": 557,
+        "src": "/media/gallery/70ROCZNICA_0211_big.jpg",
+        "width": 1024,
+        "height": 733,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 211"
       },
       {
@@ -3651,9 +3699,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 215"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0216_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0216_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 216"
       },
       {
@@ -3663,21 +3711,21 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 217"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0218.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0218_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 218"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0219.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0219_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 219"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0220.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0220_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 220"
       },
       {
@@ -3693,9 +3741,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 222"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0223.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0223_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 223"
       },
       {
@@ -3705,9 +3753,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 224"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0225.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0225_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 225"
       },
       {
@@ -3717,9 +3765,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 226"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0227_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0227_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 227"
       },
       {
@@ -3729,9 +3777,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 228"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0229.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0229_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 229"
       },
       {
@@ -3771,9 +3819,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 235"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0236.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0236_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 236"
       },
       {
@@ -3783,9 +3831,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 237"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0238.jpg",
-        "width": 778,
-        "height": 557,
+        "src": "/media/gallery/70ROCZNICA_0238_big.jpg",
+        "width": 1024,
+        "height": 733,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 238"
       },
       {
@@ -3813,9 +3861,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 242"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0244_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0244_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 244"
       },
       {
@@ -3861,15 +3909,15 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 251"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0252.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0252_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 252"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0254.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0254_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 254"
       },
       {
@@ -3885,9 +3933,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 257"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0258.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0258_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 258"
       },
       {
@@ -3897,21 +3945,21 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 260"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0261.jpg",
-        "width": 755,
-        "height": 583,
+        "src": "/media/gallery/70ROCZNICA_0261_big.jpg",
+        "width": 994,
+        "height": 768,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 261"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0262.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0262_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 262"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0263.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0263_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 263"
       },
       {
@@ -3921,21 +3969,21 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 264"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0265_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0265_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 265"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0266.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0266_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 266"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0267_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0267_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 267"
       },
       {
@@ -3951,9 +3999,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 269"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0270_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0270_big.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 270"
       },
       {
@@ -3963,9 +4011,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 272"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0273.jpg",
-        "width": 417,
-        "height": 583,
+        "src": "/media/gallery/70ROCZNICA_0273_big.jpg",
+        "width": 549,
+        "height": 768,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 273"
       },
       {
@@ -3981,9 +4029,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 275"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0276_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0276_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 276"
       },
       {
@@ -4011,9 +4059,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 280"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0281.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0281_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 281"
       },
       {
@@ -4029,15 +4077,15 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 284"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0285.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0285_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 285"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0286.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0286_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 286"
       },
       {
@@ -4047,9 +4095,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 287"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0289.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0289_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 289"
       },
       {
@@ -4065,15 +4113,15 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 291"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0292.jpg",
-        "width": 417,
-        "height": 583,
+        "src": "/media/gallery/70ROCZNICA_0292_big.jpg",
+        "width": 549,
+        "height": 768,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 292"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0293.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0293_big.jpg",
+        "width": 1024,
+        "height": 685,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 293"
       },
       {
@@ -4095,9 +4143,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 296"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0297_thumb.png",
-        "width": 192,
-        "height": 192,
+        "src": "/media/gallery/70ROCZNICA_0297_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 297"
       },
       {
@@ -4125,9 +4173,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 302"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0303.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0303_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 303"
       },
       {
@@ -4149,9 +4197,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 307"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0309.jpg",
-        "width": 778,
-        "height": 556,
+        "src": "/media/gallery/70ROCZNICA_0309_big.jpg",
+        "width": 1024,
+        "height": 732,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 309"
       },
       {
@@ -4161,9 +4209,9 @@
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 310"
       },
       {
-        "src": "/media/gallery/70ROCZNICA_0312.jpg",
-        "width": 778,
-        "height": 520,
+        "src": "/media/gallery/70ROCZNICA_0312_big.jpg",
+        "width": 1024,
+        "height": 684,
         "alt": "70 lecie Koła Łowieckiego \"Przepiórka\", zdjęcie 312"
       },
       {
@@ -4210,9 +4258,9 @@
         "alt": "XIII Spotkania Hubertowskie w Puszczy Knyszyńskiej, zdjęcie 2"
       },
       {
-        "src": "/media/gallery/XIII_hubertowskie_0003_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/XIII_hubertowskie_0003.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "XIII Spotkania Hubertowskie w Puszczy Knyszyńskiej, zdjęcie 3"
       },
       {
@@ -4228,9 +4276,9 @@
         "alt": "XIII Spotkania Hubertowskie w Puszczy Knyszyńskiej, zdjęcie 5"
       },
       {
-        "src": "/media/gallery/XIII_hubertowskie_0006_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/XIII_hubertowskie_0006.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "XIII Spotkania Hubertowskie w Puszczy Knyszyńskiej, zdjęcie 6"
       },
       {
@@ -4252,9 +4300,9 @@
         "alt": "XIII Spotkania Hubertowskie w Puszczy Knyszyńskiej, zdjęcie 9"
       },
       {
-        "src": "/media/gallery/XIII_hubertowskie_0010_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/XIII_hubertowskie_0010.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "XIII Spotkania Hubertowskie w Puszczy Knyszyńskiej, zdjęcie 10"
       },
       {
@@ -4270,9 +4318,9 @@
         "alt": "XIII Spotkania Hubertowskie w Puszczy Knyszyńskiej, zdjęcie 12"
       },
       {
-        "src": "/media/gallery/XIII_hubertowskie_0013_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/XIII_hubertowskie_0013.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "XIII Spotkania Hubertowskie w Puszczy Knyszyńskiej, zdjęcie 13"
       },
       {
@@ -4292,6 +4340,12 @@
         "width": 1024,
         "height": 768,
         "alt": "XIII Spotkania Hubertowskie w Puszczy Knyszyńskiej, zdjęcie 16"
+      },
+      {
+        "src": "/media/gallery/XIII_hubertowskie_0017.jpg",
+        "width": 1024,
+        "height": 768,
+        "alt": "XIII Spotkania Hubertowskie w Puszczy Knyszyńskiej, zdjęcie 17"
       },
       {
         "src": "/media/gallery/XIII_hubertowskie_0018.jpg",
@@ -4325,9 +4379,9 @@
         "alt": "Polowanie Hubertowskie 2019, zdjęcie 1"
       },
       {
-        "src": "/media/gallery/2019_hubertowskie_0002_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2019_hubertowskie_0002.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie Hubertowskie 2019, zdjęcie 2"
       },
       {
@@ -4337,15 +4391,21 @@
         "alt": "Polowanie Hubertowskie 2019, zdjęcie 3"
       },
       {
-        "src": "/media/gallery/2019_hubertowskie_0005_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2019_hubertowskie_0004.jpg",
+        "width": 1024,
+        "height": 681,
+        "alt": "Polowanie Hubertowskie 2019, zdjęcie 4"
+      },
+      {
+        "src": "/media/gallery/2019_hubertowskie_0005.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie Hubertowskie 2019, zdjęcie 5"
       },
       {
-        "src": "/media/gallery/2019_hubertowskie_0006_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2019_hubertowskie_0006.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie Hubertowskie 2019, zdjęcie 6"
       },
       {
@@ -4385,6 +4445,12 @@
         "alt": "Polowanie Hubertowskie 2019, zdjęcie 12"
       },
       {
+        "src": "/media/gallery/2019_hubertowskie_0013.jpg",
+        "width": 1024,
+        "height": 681,
+        "alt": "Polowanie Hubertowskie 2019, zdjęcie 13"
+      },
+      {
         "src": "/media/gallery/2019_hubertowskie_0014.jpg",
         "width": 1024,
         "height": 681,
@@ -4421,9 +4487,9 @@
         "alt": "Polowanie Hubertowskie 2019, zdjęcie 19"
       },
       {
-        "src": "/media/gallery/2019_hubertowskie_0020_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2019_hubertowskie_0020.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie Hubertowskie 2019, zdjęcie 20"
       },
       {
@@ -4451,9 +4517,9 @@
         "alt": "Polowanie Hubertowskie 2019, zdjęcie 24"
       },
       {
-        "src": "/media/gallery/2019_hubertowskie_0025_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2019_hubertowskie_0025.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie Hubertowskie 2019, zdjęcie 25"
       },
       {
@@ -4469,9 +4535,9 @@
         "alt": "Polowanie Hubertowskie 2019, zdjęcie 27"
       },
       {
-        "src": "/media/gallery/2019_hubertowskie_0028_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2019_hubertowskie_0028.jpg",
+        "width": 1024,
+        "height": 681,
         "alt": "Polowanie Hubertowskie 2019, zdjęcie 28"
       },
       {
@@ -4487,9 +4553,9 @@
         "alt": "Polowanie Hubertowskie 2019, zdjęcie 30"
       },
       {
-        "src": "/media/gallery/2019_hubertowskie_0031_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2019_hubertowskie_0031.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie Hubertowskie 2019, zdjęcie 31"
       },
       {
@@ -4505,9 +4571,9 @@
         "alt": "Polowanie Hubertowskie 2019, zdjęcie 33"
       },
       {
-        "src": "/media/gallery/2019_hubertowskie_0034_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2019_hubertowskie_0034.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie Hubertowskie 2019, zdjęcie 34"
       },
       {
@@ -4533,6 +4599,12 @@
         "width": 1024,
         "height": 768,
         "alt": "Polowanie Hubertowskie 2019, zdjęcie 38"
+      },
+      {
+        "src": "/media/gallery/2019_hubertowskie_0039.jpg",
+        "width": 576,
+        "height": 768,
+        "alt": "Polowanie Hubertowskie 2019, zdjęcie 39"
       },
       {
         "src": "/media/gallery/2019_hubertowskie_0040.jpg",
@@ -4584,9 +4656,9 @@
         "alt": "Budowa domu Myśliwskiego 2019, zdjęcie 5"
       },
       {
-        "src": "/media/gallery/2019DOMEK_0006_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2019DOMEK_0006.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Budowa domu Myśliwskiego 2019, zdjęcie 6"
       },
       {
@@ -4602,9 +4674,9 @@
         "alt": "Budowa domu Myśliwskiego 2019, zdjęcie 8"
       },
       {
-        "src": "/media/gallery/2019DOMEK_0009_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2019DOMEK_0009.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Budowa domu Myśliwskiego 2019, zdjęcie 9"
       },
       {
@@ -4620,9 +4692,9 @@
         "alt": "Budowa domu Myśliwskiego 2019, zdjęcie 11"
       },
       {
-        "src": "/media/gallery/2019DOMEK_0012_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2019DOMEK_0012.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Budowa domu Myśliwskiego 2019, zdjęcie 12"
       },
       {
@@ -4632,15 +4704,15 @@
         "alt": "Budowa domu Myśliwskiego 2019, zdjęcie 13"
       },
       {
-        "src": "/media/gallery/2019DOMEK_0014_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2019DOMEK_0014.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Budowa domu Myśliwskiego 2019, zdjęcie 14"
       },
       {
-        "src": "/media/gallery/2019DOMEK_0015_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2019DOMEK_0015.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Budowa domu Myśliwskiego 2019, zdjęcie 15"
       },
       {
@@ -4654,6 +4726,12 @@
         "width": 1024,
         "height": 768,
         "alt": "Budowa domu Myśliwskiego 2019, zdjęcie 17"
+      },
+      {
+        "src": "/media/gallery/2019DOMEK_0018.jpg",
+        "width": 1024,
+        "height": 768,
+        "alt": "Budowa domu Myśliwskiego 2019, zdjęcie 18"
       },
       {
         "src": "/media/gallery/2019DOMEK_0019.jpg",
@@ -4681,10 +4759,22 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 1"
       },
       {
+        "src": "/media/gallery/2016Grunwald_0003.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 2"
+      },
+      {
         "src": "/media/gallery/2016Grunwald_0004.jpg",
         "width": 1024,
         "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 3"
+      },
+      {
+        "src": "/media/gallery/2016Grunwald_0005.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 4"
       },
       {
         "src": "/media/gallery/2016Grunwald_0006.jpg",
@@ -4711,15 +4801,15 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 8"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0010_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0010.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 9"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0011_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0011.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 10"
       },
       {
@@ -4765,9 +4855,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 17"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0019_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0019.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 18"
       },
       {
@@ -4789,21 +4879,21 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 21"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0023_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0023.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 22"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0024_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0024.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 23"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0025_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0025.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 24"
       },
       {
@@ -4813,15 +4903,15 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 25"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0027_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0027.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 26"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0028_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0028.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 27"
       },
       {
@@ -4837,9 +4927,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 29"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0031_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0031.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 30"
       },
       {
@@ -4873,9 +4963,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 35"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0037_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0037.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 36"
       },
       {
@@ -4885,15 +4975,21 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 37"
       },
       {
+        "src": "/media/gallery/2016Grunwald_0039.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 38"
+      },
+      {
         "src": "/media/gallery/2016Grunwald_0040.jpg",
         "width": 1024,
         "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 39"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0041_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0041.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 40"
       },
       {
@@ -4915,10 +5011,22 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 43"
       },
       {
+        "src": "/media/gallery/2016Grunwald_0045.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 44"
+      },
+      {
         "src": "/media/gallery/2016Grunwald_0046.jpg",
         "width": 1024,
         "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 45"
+      },
+      {
+        "src": "/media/gallery/2016Grunwald_0047.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 46"
       },
       {
         "src": "/media/gallery/2016Grunwald_0048.jpg",
@@ -4927,9 +5035,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 47"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0049_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0049.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 48"
       },
       {
@@ -4945,9 +5053,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 50"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0052_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0052.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 51"
       },
       {
@@ -4969,10 +5077,28 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 54"
       },
       {
+        "src": "/media/gallery/2016Grunwald_0056.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 55"
+      },
+      {
         "src": "/media/gallery/2016Grunwald_0057.jpg",
         "width": 1024,
         "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 56"
+      },
+      {
+        "src": "/media/gallery/2016Grunwald_0058.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 57"
+      },
+      {
+        "src": "/media/gallery/2016Grunwald_0059.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 58"
       },
       {
         "src": "/media/gallery/2016Grunwald_0060.jpg",
@@ -4987,16 +5113,28 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 60"
       },
       {
+        "src": "/media/gallery/2016Grunwald_0062.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 61"
+      },
+      {
         "src": "/media/gallery/2016Grunwald_0063.jpg",
         "width": 1024,
         "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 62"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0064_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0064.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 63"
+      },
+      {
+        "src": "/media/gallery/2016Grunwald_0065.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 64"
       },
       {
         "src": "/media/gallery/2016Grunwald_0066.jpg",
@@ -5005,15 +5143,15 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 65"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0067_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0067.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 66"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0068_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0068.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 67"
       },
       {
@@ -5029,9 +5167,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 69"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0071_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0071.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 70"
       },
       {
@@ -5077,9 +5215,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 77"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0079_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0079.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 78"
       },
       {
@@ -5089,9 +5227,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 79"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0081_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0081.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 80"
       },
       {
@@ -5113,9 +5251,21 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 83"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0087_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0085.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 84"
+      },
+      {
+        "src": "/media/gallery/2016Grunwald_0086.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 85"
+      },
+      {
+        "src": "/media/gallery/2016Grunwald_0087.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 86"
       },
       {
@@ -5131,16 +5281,28 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 88"
       },
       {
+        "src": "/media/gallery/2016Grunwald_0090.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 89"
+      },
+      {
         "src": "/media/gallery/2016Grunwald_0091.jpg",
         "width": 1024,
         "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 90"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0092_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0092.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 91"
+      },
+      {
+        "src": "/media/gallery/2016Grunwald_0093.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 92"
       },
       {
         "src": "/media/gallery/2016Grunwald_0094.jpg",
@@ -5149,9 +5311,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 93"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0095_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0095.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 94"
       },
       {
@@ -5161,9 +5323,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 95"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0097_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0097.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 96"
       },
       {
@@ -5185,9 +5347,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 99"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0101_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0101.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 100"
       },
       {
@@ -5275,9 +5437,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 114"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0116_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0116.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 115"
       },
       {
@@ -5287,9 +5449,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 116"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0118_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0118.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 117"
       },
       {
@@ -5329,9 +5491,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 123"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0125_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0125.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 124"
       },
       {
@@ -5347,9 +5509,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 126"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0128_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0128.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 127"
       },
       {
@@ -5387,6 +5549,12 @@
         "width": 512,
         "height": 768,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 133"
+      },
+      {
+        "src": "/media/gallery/2016Grunwald_0135.jpg",
+        "width": 512,
+        "height": 768,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 134"
       },
       {
         "src": "/media/gallery/2016Grunwald_0136.jpg",
@@ -5431,9 +5599,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 141"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0143_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0143.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 142"
       },
       {
@@ -5479,15 +5647,15 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 149"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0151_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0151.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 150"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0152_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0152.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 151"
       },
       {
@@ -5497,10 +5665,16 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 152"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0154_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0154.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 153"
+      },
+      {
+        "src": "/media/gallery/2016Grunwald_0155.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 154"
       },
       {
         "src": "/media/gallery/2016Grunwald_0156.jpg",
@@ -5515,10 +5689,16 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 156"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0158_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0158.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 157"
+      },
+      {
+        "src": "/media/gallery/2016Grunwald_0159.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 158"
       },
       {
         "src": "/media/gallery/2016Grunwald_0160.jpg",
@@ -5527,27 +5707,27 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 159"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0161_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0161.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 160"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0162_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0162.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 161"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0163_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0163.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 162"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0164_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0164.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 163"
       },
       {
@@ -5575,21 +5755,21 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 167"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0169_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0169.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 168"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0170_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0170.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 169"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0171_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0171.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 170"
       },
       {
@@ -5617,9 +5797,15 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 174"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0177_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0176.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 175"
+      },
+      {
+        "src": "/media/gallery/2016Grunwald_0177.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 176"
       },
       {
@@ -5635,9 +5821,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 178"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0180_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0180.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 179"
       },
       {
@@ -5647,9 +5833,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 180"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0182_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0182.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 181"
       },
       {
@@ -5665,9 +5851,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 183"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0185_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0185.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 184"
       },
       {
@@ -5683,9 +5869,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 186"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0188_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0188.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 187"
       },
       {
@@ -5725,16 +5911,28 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 193"
       },
       {
+        "src": "/media/gallery/2016Grunwald_0195.jpg",
+        "width": 512,
+        "height": 768,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 194"
+      },
+      {
         "src": "/media/gallery/2016Grunwald_0196.jpg",
         "width": 512,
         "height": 768,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 195"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0197_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0197.jpg",
+        "width": 512,
+        "height": 768,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 196"
+      },
+      {
+        "src": "/media/gallery/2016Grunwald_0198.jpg",
+        "width": 512,
+        "height": 768,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 197"
       },
       {
         "src": "/media/gallery/2016Grunwald_0199.jpg",
@@ -5743,15 +5941,15 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 198"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0200_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0200.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 199"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0201_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0201.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 200"
       },
       {
@@ -5761,9 +5959,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 201"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0203_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0203.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 202"
       },
       {
@@ -5803,6 +6001,18 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 208"
       },
       {
+        "src": "/media/gallery/2016Grunwald_0210.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 209"
+      },
+      {
+        "src": "/media/gallery/2016Grunwald_0211.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 210"
+      },
+      {
         "src": "/media/gallery/2016Grunwald_0212.jpg",
         "width": 1024,
         "height": 683,
@@ -5815,21 +6025,27 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 212"
       },
       {
+        "src": "/media/gallery/2016Grunwald_0214.jpg",
+        "width": 1024,
+        "height": 683,
+        "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 213"
+      },
+      {
         "src": "/media/gallery/2016Grunwald_0215.jpg",
         "width": 1024,
         "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 214"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0216_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0216.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 215"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0217_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0217.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 216"
       },
       {
@@ -5869,9 +6085,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 222"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0224_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0224.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 223"
       },
       {
@@ -5881,9 +6097,9 @@
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 224"
       },
       {
-        "src": "/media/gallery/2016Grunwald_0226_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/2016Grunwald_0226.jpg",
+        "width": 1024,
+        "height": 683,
         "alt": "Gościnne polowanie w Kole Łowieckim Grunwald, zdjęcie 225"
       },
       {
@@ -5954,10 +6170,16 @@
         "alt": "Polowanie Hubertowskie 2016, zdjęcie 8"
       },
       {
-        "src": "/media/gallery/Polowanie_Hubertowskie_2016-007_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/Polowanie_Hubertowskie_2016-007.jpg",
+        "width": 816,
+        "height": 612,
         "alt": "Polowanie Hubertowskie 2016, zdjęcie 9"
+      },
+      {
+        "src": "/media/gallery/Polowanie_Hubertowskie_2016-009.jpg",
+        "width": 1024,
+        "height": 768,
+        "alt": "Polowanie Hubertowskie 2016, zdjęcie 10"
       },
       {
         "src": "/media/gallery/Polowanie_Hubertowskie_2016-010.jpg",
@@ -5966,9 +6188,9 @@
         "alt": "Polowanie Hubertowskie 2016, zdjęcie 11"
       },
       {
-        "src": "/media/gallery/Polowanie_Hubertowskie_2016-013_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/Polowanie_Hubertowskie_2016-013.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie Hubertowskie 2016, zdjęcie 12"
       },
       {
@@ -5996,9 +6218,9 @@
         "alt": "Polowanie Hubertowskie 2016, zdjęcie 16"
       },
       {
-        "src": "/media/gallery/Polowanie_Hubertowskie_2016-019_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/Polowanie_Hubertowskie_2016-019.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie Hubertowskie 2016, zdjęcie 17"
       },
       {
@@ -6006,6 +6228,12 @@
         "width": 1024,
         "height": 768,
         "alt": "Polowanie Hubertowskie 2016, zdjęcie 18"
+      },
+      {
+        "src": "/media/gallery/Polowanie_Hubertowskie_2016-021.jpg",
+        "width": 1024,
+        "height": 768,
+        "alt": "Polowanie Hubertowskie 2016, zdjęcie 19"
       },
       {
         "src": "/media/gallery/Polowanie_Hubertowskie_2016-022.jpg",
@@ -6020,9 +6248,9 @@
         "alt": "Polowanie Hubertowskie 2016, zdjęcie 21"
       },
       {
-        "src": "/media/gallery/Polowanie_Hubertowskie_2016-024_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/Polowanie_Hubertowskie_2016-024.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie Hubertowskie 2016, zdjęcie 22"
       },
       {
@@ -6038,9 +6266,9 @@
         "alt": "Polowanie Hubertowskie 2016, zdjęcie 24"
       },
       {
-        "src": "/media/gallery/Polowanie_Hubertowskie_2016-027_thumb.png",
-        "width": 127,
-        "height": 127,
+        "src": "/media/gallery/Polowanie_Hubertowskie_2016-027.jpg",
+        "width": 1024,
+        "height": 768,
         "alt": "Polowanie Hubertowskie 2016, zdjęcie 25"
       },
       {
