@@ -3,12 +3,21 @@ import site from "../data/site.json";
 import { sitePath } from "../lib/paths";
 
 const links = [
+  { href: sitePath("/"), label: "Strona główna", exact: true },
   { href: sitePath("/aktualnosci/"), label: "Aktualności" },
   { href: sitePath("/galeria/"), label: "Galeria" },
   { href: sitePath("/zarzad/"), label: "Zarząd" },
   { href: sitePath("/kalendarz/"), label: "Kalendarz" },
   { href: sitePath("/ksiazka-polowan/"), label: "Książka polowań" },
 ];
+
+function isCurrent(href: string, exact = false) {
+  if (exact) {
+    const normalize = (value: string) => (value.endsWith("/") ? value : `${value}/`);
+    return normalize(pathname) === normalize(href);
+  }
+  return pathname === href || pathname.startsWith(href);
+}
 
 const pathname = Astro.url.pathname;
 ---
@@ -27,7 +36,7 @@ const pathname = Astro.url.pathname;
       {
         links.map((link) => (
           <li>
-            <a href={link.href} aria-current={pathname === link.href || pathname.startsWith(link.href) ? "page" : undefined}>
+            <a href={link.href} aria-current={isCurrent(link.href, link.exact) ? "page" : undefined}>
               {link.label}
             </a>
           </li>
