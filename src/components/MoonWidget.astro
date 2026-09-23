@@ -8,6 +8,8 @@
         <p class="moon-date" data-moon-date></p>
         <p class="moon-name" data-moon-name></p>
         <p class="moon-detail" data-moon-detail></p>
+        <p class="moon-sun" data-moon-sun></p>
+        <p class="moon-sun-place">dla Białegostoku</p>
       </div>
       <div class="moon-aside">
         <p class="moon-next-label">Najbliższe fazy</p>
@@ -25,6 +27,7 @@
   const date = root?.querySelector<HTMLElement>("[data-moon-date]");
   const name = root?.querySelector<HTMLElement>("[data-moon-name]");
   const detail = root?.querySelector<HTMLElement>("[data-moon-detail]");
+  const sun = root?.querySelector<HTMLElement>("[data-moon-sun]");
   const list = root?.querySelector<HTMLOListElement>("[data-moon-upcoming]");
 
   function moonMarkup(phase: number, gradientId: string): string {
@@ -42,13 +45,27 @@
     </svg>`;
   }
 
-  if (root && stage && date && name && detail && list) {
+  function sunPart(label: string, value: string, iso: string): HTMLSpanElement {
+    const part = document.createElement("span");
+    part.append(document.createTextNode(`${label} `));
+    const time = document.createElement("time");
+    time.dateTime = iso;
+    time.textContent = value;
+    part.append(time);
+    return part;
+  }
+
+  if (root && stage && date && name && detail && sun && list) {
     const now = new Date();
     const sky = moonNow(now);
     stage.innerHTML = moonMarkup(sky.phase, "moon-lit");
     date.textContent = sky.dateLabel;
     name.textContent = sky.name;
     detail.textContent = sky.detailLabel;
+    sun.replaceChildren(
+      sunPart("Wschód słońca", sky.sunriseLabel, sky.sunriseIso),
+      sunPart("Zachód słońca", sky.sunsetLabel, sky.sunsetIso),
+    );
     list.replaceChildren(
       ...upcomingPhases(now).map((event, index) => {
         const item = document.createElement("li");

@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
-import { CONDITIONS, MONTHS, RETIRED_BIRDS } from "../data/hunting-calendar";
+import HuntToday from "../components/HuntToday.astro";
+import { CONDITIONS, MONTHS } from "../data/hunting-calendar";
 import { rowsForMonth } from "../lib/hunting";
 import { sitePath } from "../lib/paths";
 
@@ -25,14 +26,7 @@ const months = MONTHS.map((month) => ({
 
   <section class="section" style="padding-top: 0.5rem">
     <div class="wrap hunt-calendar">
-      <div class="hunt-today">
-        <p class="kicker">Dziś na Podlasiu</p>
-        <p class="hunt-today-date" data-hunt-date></p>
-        <ul class="hunt-today-list" data-hunt-list></ul>
-        <noscript>
-          <p>Przy włączonych skryptach widać tu gatunki otwarte dzisiaj, z uwzględnieniem dni wolnych.</p>
-        </noscript>
-      </div>
+      <HuntToday />
 
       <div class="hunt-tabs" role="tablist" aria-label="Miesiące">
         {
@@ -75,35 +69,6 @@ const months = MONTHS.map((month) => ({
           </section>
         ))
       }
-
-      <div class="hunt-notes">
-        <p>
-          Jeżeli początek okresu przypada tuż po dniu wolnym od pracy, polowanie zaczyna się pierwszego z tych dni.
-          Jeżeli koniec przypada w dniu poprzedzającym dzień wolny, okres trwa do ostatniego takiego dnia. Dni wolne to
-          soboty, niedziele i święta.
-        </p>
-        <p>
-          Z ptakiem łowczym: zając szarak i dziki królik od 1 września do 31 stycznia; bażanty (koguty i kury, na
-          wszystkich obwodach) od 1 września do końca lutego; kuropatwa od 11 września do 30 listopada.
-        </p>
-        <p>
-          Od 2 stycznia 2026 r. nie są gatunkami łownymi: głowienka, czernica, łyska, jarząbek i słonka
-          (<a href="https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250001286">Dz.U. 2025 poz. 1286</a>).
-        </p>
-        <p class="hunt-retired">
-          {
-            RETIRED_BIRDS.map((icon) => (
-              <img src={sitePath(icon.src)} alt={icon.alt} width="50" height="50" />
-            ))
-          }
-        </p>
-        <p>Łosie — byki, klempy i łoszaki — są objęte całoroczną ochroną.</p>
-        <p>
-          Skrót nie zastępuje planu łowieckiego koła ani przepisów o chorobach zakaźnych zwierząt. Okresy według
-          <a href="https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20230000099">Dz.U. 2023 poz. 99</a>. Piktogramy:
-          <a href="https://www.pzlow.pl/gatunki-zwierzat/">Polski Związek Łowiecki</a>.
-        </p>
-      </div>
     </div>
   </section>
 
@@ -127,57 +92,6 @@ const months = MONTHS.map((month) => ({
         const panel = panels.find((item) => item.dataset.month === tab.dataset.monthTab);
         if (panel) history.replaceState(null, "", `#${panel.id}`);
       });
-    }
-  </script>
-
-  <script>
-    import { openToday } from "../lib/hunting";
-    import { sitePath } from "../lib/paths";
-
-    const date = document.querySelector<HTMLElement>("[data-hunt-date]");
-    const list = document.querySelector<HTMLUListElement>("[data-hunt-list]");
-    const now = new Date();
-
-    if (date && list) {
-      date.textContent = now.toLocaleDateString("pl-PL", { day: "numeric", month: "long", year: "numeric" });
-      const cards = openToday(now);
-      list.replaceChildren(
-        ...cards.map((card) => {
-          const item = document.createElement("li");
-          const icons = document.createElement("span");
-          icons.className = "hunt-icons";
-          for (const icon of card.icons) {
-            const image = document.createElement("img");
-            image.src = sitePath(icon.src);
-            image.alt = "";
-            image.width = 50;
-            image.height = 50;
-            icons.append(image);
-          }
-          const text = document.createElement("span");
-          const title = document.createElement("strong");
-          title.textContent = card.name;
-          text.append(title);
-          if (card.detail) {
-            const detail = document.createElement("small");
-            detail.textContent = card.detail;
-            text.append(detail);
-          }
-          for (const line of card.lines) {
-            const note = document.createElement("small");
-            note.textContent = line;
-            text.append(note);
-          }
-          if (card.extended) {
-            const extra = document.createElement("small");
-            extra.className = "is-extended";
-            extra.textContent = "Okres wydłużony o dni wolne";
-            text.append(extra);
-          }
-          item.append(icons, text);
-          return item;
-        }),
-      );
     }
   </script>
 </Base>

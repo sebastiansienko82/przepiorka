@@ -58,13 +58,10 @@ const krolik = icon("image26", "Królik");
 const kogut = icon("image27", "Kogut bażanta");
 const kura = icon("image28", "Kura bażanta");
 const kuropatwa = icon("image29", "Kuropatwa");
-const slonka = icon("image30", "Słonka");
 const kaczka = icon("image31", "Kaczka");
 const ges = icon("image32", "Gęś");
-const lyska = icon("image33", "Łyska");
 const grzywacz = icon("image35", "Gołąb grzywacz");
 const borsuk = icon("image36", "Borsuk");
-const jarzabek = icon("image37", "Jarząbek");
 const szakal = icon("image50", "Szakal złocisty");
 
 export const CONDITIONS: Record<Condition, string> = {
@@ -224,11 +221,4 @@ export const SPECIES: Species[] = [
     icons: [grzywacz],
     seasons: [{ from: { month: 8, day: 15 }, to: { month: 11, day: 30 } }],
   },
-];
-
-/** Wyłączone z listy łownej od 2 stycznia 2026 r. (Dz.U. 2025 poz. 1286). */
-export const RETIRED_BIRDS: Icon[] = [
-  { ...slonka, alt: "Słonka — gatunek nielowny" },
-  { ...lyska, alt: "Łyska — gatunek nielowny" },
-  { ...jarzabek, alt: "Jarząbek — gatunek nielowny" },
 ];

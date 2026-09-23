@@ -1,0 +1,68 @@
+---
+interface Props {
+  showKicker?: boolean;
+}
+
+const { showKicker = true } = Astro.props;
+---
+
+<div class="hunt-today" data-hunt-today>
+  {showKicker && <p class="kicker">Kalendarz polowań na dzisiaj</p>}
+  <p class="hunt-today-date" data-hunt-date></p>
+  <ul class="hunt-today-list" data-hunt-list></ul>
+  <noscript>
+    <p>Przy włączonych skryptach widać tu gatunki otwarte dzisiaj, z uwzględnieniem dni wolnych.</p>
+  </noscript>
+</div>
+
+<script>
+  import { openToday } from "../lib/hunting";
+  import { sitePath } from "../lib/paths";
+
+  const now = new Date();
+  const label = now.toLocaleDateString("pl-PL", { day: "numeric", month: "long", year: "numeric" });
+
+  for (const root of document.querySelectorAll<HTMLElement>("[data-hunt-today]")) {
+    const date = root.querySelector<HTMLElement>("[data-hunt-date]");
+    const list = root.querySelector<HTMLUListElement>("[data-hunt-list]");
+    if (!date || !list) continue;
+    date.textContent = label;
+    list.replaceChildren(
+      ...openToday(now).map((card) => {
+        const item = document.createElement("li");
+        const icons = document.createElement("span");
+        icons.className = "hunt-icons";
+        for (const icon of card.icons) {
+          const image = document.createElement("img");
+          image.src = sitePath(icon.src);
+          image.alt = "";
+          image.width = 50;
+          image.height = 50;
+          icons.append(image);
+        }
+        const text = document.createElement("span");
+        const title = document.createElement("strong");
+        title.textContent = card.name;
+        text.append(title);
+        if (card.detail) {
+          const detail = document.createElement("small");
+          detail.textContent = card.detail;
+          text.append(detail);
+        }
+        for (const line of card.lines) {
+          const note = document.createElement("small");
+          note.textContent = line;
+          text.append(note);
+        }
+        if (card.extended) {
+          const extra = document.createElement("small");
+          extra.className = "is-extended";
+          extra.textContent = "Okres wydłużony o dni wolne";
+          text.append(extra);
+        }
+        item.append(icons, text);
+        return item;
+      }),
+    );
+  }
+</script>

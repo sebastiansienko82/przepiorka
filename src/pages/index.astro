@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import MoonWidget from "../components/MoonWidget.astro";
+import HuntToday from "../components/HuntToday.astro";
 import { sitePath } from "../lib/paths";
 import { photoCount } from "../lib/polish";
 import site from "../data/site.json";
@@ -69,6 +70,16 @@ function isCover(image: { width: number; height: number } | null) {
   </section>
 
   <MoonWidget />
+
+  <section class="section hunt-home">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="section-title">Kalendarz polowań na dzisiaj</h2>
+        <a href={sitePath("/kalendarz/")}>Cały kalendarz</a>
+      </div>
+      <HuntToday showKicker={false} />
+    </div>
+  </section>
 
   <section class="section" style="padding-top: 0">
     <div class="wrap">

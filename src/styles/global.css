@@ -775,6 +775,20 @@ dialog.lightbox::backdrop {
   padding-bottom: 1.75rem;
 }
 
+.hunt-home {
+  padding-top: 0;
+  padding-bottom: 1.75rem;
+}
+
+.hunt-home .section-title {
+  margin-bottom: 0.75rem;
+  font-size: 1.45rem;
+}
+
+.hunt-home .hunt-today {
+  margin-bottom: 0;
+}
+
 .moon-section .section-title {
   margin-bottom: 0.75rem;
   font-size: 1.45rem;
@@ -819,6 +833,7 @@ dialog.lightbox::backdrop {
 
 .moon-date,
 .moon-detail,
+.moon-sun,
 .moon-next-label {
   margin: 0;
   color: var(--muted);
@@ -841,8 +856,32 @@ dialog.lightbox::backdrop {
 
 .moon-name:empty,
 .moon-date:empty,
-.moon-detail:empty {
+.moon-detail:empty,
+.moon-sun:empty {
   min-height: 1.2em;
+}
+
+.moon-sun {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.55rem;
+  margin-top: 0.35rem;
+  color: var(--ink);
+  font-size: 0.92rem;
+}
+
+.moon-sun span {
+  white-space: nowrap;
+}
+
+.moon-sun time {
+  font-weight: 600;
+}
+
+.moon-sun-place {
+  margin: 0.12rem 0 0;
+  color: var(--muted);
+  font-size: 0.78rem;
 }
 
 .moon-next-label {
@@ -907,8 +946,7 @@ dialog.lightbox::backdrop {
   font-size: 0.78rem;
 }
 
-.hunt-today,
-.hunt-notes {
+.hunt-today {
   background: white;
   border: 1px solid var(--line);
   border-radius: 1rem;
@@ -921,7 +959,13 @@ dialog.lightbox::backdrop {
 }
 
 .hunt-today .kicker {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.35rem;
+  letter-spacing: normal;
+  text-transform: none;
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  line-height: 1.2;
+  color: var(--forest);
 }
 
 .hunt-today-date {
@@ -1095,32 +1139,6 @@ dialog.lightbox::backdrop {
   flex-basis: 100%;
   color: #6d5424;
   font-size: 0.88rem;
-}
-
-.hunt-notes {
-  margin-top: 1.25rem;
-}
-
-.hunt-notes p {
-  margin: 0 0 0.7rem;
-  color: var(--muted);
-}
-
-.hunt-notes p:last-child {
-  margin-bottom: 0;
-}
-
-.hunt-retired {
-  display: flex;
-  gap: 0.35rem;
-  align-items: center;
-}
-
-.hunt-retired img {
-  width: 2.6rem;
-  height: 2.6rem;
-  object-fit: contain;
-  opacity: 0.55;
 }
 
 @media (max-width: 980px) {
