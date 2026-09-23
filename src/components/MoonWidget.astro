@@ -1,0 +1,70 @@
+<section class="section moon-section" style="padding-top: 0" aria-labelledby="fazy-ksiezyca">
+  <div class="wrap">
+    <h2 id="fazy-ksiezyca" class="section-title">Fazy księżyca</h2>
+    <div class="moon-widget" data-moon-widget>
+      <div class="moon-stage" data-moon-stage aria-hidden="true"></div>
+      <div class="moon-copy">
+        <p class="kicker">Dziś</p>
+        <p class="moon-date" data-moon-date></p>
+        <p class="moon-name" data-moon-name></p>
+        <p class="moon-detail" data-moon-detail></p>
+      </div>
+      <div class="moon-aside">
+        <p class="moon-next-label">Najbliższe fazy</p>
+        <ol class="moon-upcoming" data-moon-upcoming></ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  import { moonLitPath, moonNow, upcomingPhases } from "../lib/moon";
+
+  const root = document.querySelector<HTMLElement>("[data-moon-widget]");
+  const stage = root?.querySelector<HTMLElement>("[data-moon-stage]");
+  const date = root?.querySelector<HTMLElement>("[data-moon-date]");
+  const name = root?.querySelector<HTMLElement>("[data-moon-name]");
+  const detail = root?.querySelector<HTMLElement>("[data-moon-detail]");
+  const list = root?.querySelector<HTMLOListElement>("[data-moon-upcoming]");
+
+  function moonMarkup(phase: number, gradientId: string): string {
+    const path = moonLitPath(phase);
+    return `<svg class="moon-svg" viewBox="0 0 100 100" aria-hidden="true">
+      <defs>
+        <radialGradient id="${gradientId}" cx="34%" cy="32%" r="70%">
+          <stop offset="0%" stop-color="#fff9ec"/>
+          <stop offset="46%" stop-color="#f3e4c0"/>
+          <stop offset="100%" stop-color="#c6a86a"/>
+        </radialGradient>
+      </defs>
+      <circle cx="50" cy="50" r="46" fill="#1c2a22" stroke="#d7c08a" stroke-width="0.8"/>
+      <path d="${path}" fill="url(#${gradientId})"/>
+    </svg>`;
+  }
+
+  if (root && stage && date && name && detail && list) {
+    const now = new Date();
+    const sky = moonNow(now);
+    stage.innerHTML = moonMarkup(sky.phase, "moon-lit");
+    date.textContent = sky.dateLabel;
+    name.textContent = sky.name;
+    detail.textContent = sky.detailLabel;
+    list.replaceChildren(
+      ...upcomingPhases(now).map((event, index) => {
+        const item = document.createElement("li");
+        const icon = document.createElement("span");
+        icon.className = "moon-mini";
+        icon.innerHTML = moonMarkup(event.phase, `moon-lit-${index}`);
+        const text = document.createElement("span");
+        const title = document.createElement("strong");
+        title.textContent = event.name;
+        const time = document.createElement("time");
+        time.dateTime = event.iso;
+        time.textContent = event.whenLabel;
+        text.append(title, time);
+        item.append(icon, text);
+        return item;
+      }),
+    );
+  }
+</script>

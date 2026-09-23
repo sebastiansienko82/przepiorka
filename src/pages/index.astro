@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import MoonWidget from "../components/MoonWidget.astro";
 import { sitePath } from "../lib/paths";
 import { photoCount } from "../lib/polish";
 import site from "../data/site.json";
@@ -66,6 +67,8 @@ function isCover(image: { width: number; height: number } | null) {
       }
     </div>
   </section>
+
+  <MoonWidget />
 
   <section class="section" style="padding-top: 0">
     <div class="wrap">
