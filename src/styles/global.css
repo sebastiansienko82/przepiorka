@@ -476,6 +476,7 @@ dialog.lightbox {
   margin: 0;
   padding: 0;
   border: 0;
+  overflow: hidden;
   background: #0d1510;
   color: var(--paper);
 }
@@ -486,8 +487,9 @@ dialog.lightbox::backdrop {
 
 .lightbox-frame {
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto minmax(0, 1fr) auto;
   height: 100%;
+  min-height: 0;
 }
 
 .lightbox-bar,
@@ -502,6 +504,8 @@ dialog.lightbox::backdrop {
 .lightbox-frame img {
   width: 100%;
   height: 100%;
+  min-width: 0;
+  min-height: 0;
   object-fit: contain;
 }
 
