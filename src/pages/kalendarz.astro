@@ -1,7 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import HuntToday from "../components/HuntToday.astro";
-import { CONDITIONS, MONTHS } from "../data/hunting-calendar";
+import { MONTHS } from "../data/hunting-calendar";
 import { rowsForMonth } from "../lib/hunting";
 import { sitePath } from "../lib/paths";
 
@@ -19,8 +19,7 @@ const months = MONTHS.map((month) => ({
   <div class="wrap page-head">
     <h1>Kalendarz polowań</h1>
     <p>
-      Okresy dla województwa podlaskiego. Wyjątki dolnośląskie, lubuskie, opolskie, pomorskie, wielkopolskie,
-      zachodniopomorskie i kujawsko-pomorskie są pominięte.
+      Okresy dla obwodów koła.
     </p>
   </div>
 
@@ -58,7 +57,6 @@ const months = MONTHS.map((month) => ({
                         <li>
                           {part.who && <strong>{part.who}</strong>}
                           <span>{part.text}</span>
-                          {part.condition && <small>{CONDITIONS[part.condition]}</small>}
                         </li>
                       ))}
                     </ul>

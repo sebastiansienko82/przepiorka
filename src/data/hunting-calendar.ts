@@ -10,14 +10,11 @@ export interface Span {
 
 export type Method = "hunt" | "trapping";
 
-export type Condition = "grouse" | "grouse-or-restock" | "ohz-pheasant";
-
 export interface Season {
   who?: string;
   from: Span;
   to: Span;
   method?: Method;
-  condition?: Condition;
   icons?: Icon[];
 }
 
@@ -56,20 +53,12 @@ const norka = icon("image23", "Norka amerykańska");
 const zajac = icon("image25", "Zając");
 const krolik = icon("image26", "Królik");
 const kogut = icon("image27", "Kogut bażanta");
-const kura = icon("image28", "Kura bażanta");
 const kuropatwa = icon("image29", "Kuropatwa");
 const kaczka = icon("image31", "Kaczka");
 const ges = icon("image32", "Gęś");
 const grzywacz = icon("image35", "Gołąb grzywacz");
 const borsuk = icon("image36", "Borsuk");
 const szakal = icon("image50", "Szakal złocisty");
-
-export const CONDITIONS: Record<Condition, string> = {
-  grouse: "Tylko w obwodach, w których występuje głuszec lub cietrzew",
-  "grouse-or-restock":
-    "Tylko w obwodach z głuszcem lub cietrzewiem albo po zasiedleniu zająca, bażanta lub kuropatwy w ostatnich 2 latach",
-  "ohz-pheasant": "Tylko w ośrodku hodowli zwierzyny z wolierową hodowlą bażanta",
-};
 
 export const MONTHS = [
   { id: "styczen", name: "Styczeń", number: 1 },
@@ -136,28 +125,19 @@ export const SPECIES: Species[] = [
     id: "borsuk",
     name: "Borsuki",
     icons: [borsuk],
-    seasons: [
-      { from: { month: 9, day: 1 }, to: { month: 11, day: 30 } },
-      { from: { month: 12, day: 1 }, to: { month: 8, day: 31 }, condition: "grouse" },
-    ],
+    seasons: [{ from: { month: 9, day: 1 }, to: { month: 11, day: 30 } }],
   },
   {
     id: "tchorz-kuna",
     name: "Tchórze i kuny",
     icons: [tchorz, kuna],
-    seasons: [
-      { from: { month: 9, day: 1 }, to: { month: 3, day: 31 } },
-      { from: { month: 4, day: 1 }, to: { month: 8, day: 31 }, condition: "grouse" },
-    ],
+    seasons: [{ from: { month: 9, day: 1 }, to: { month: 3, day: 31 } }],
   },
   {
     id: "lis",
     name: "Lisy",
     icons: [lis],
-    seasons: [
-      { from: { month: 6, day: 1 }, to: { month: 3, day: 31 } },
-      { from: { month: 4, day: 1 }, to: { month: 5, day: 31 }, condition: "grouse-or-restock" },
-    ],
+    seasons: [{ from: { month: 6, day: 1 }, to: { month: 3, day: 31 } }],
   },
   {
     id: "norka",
@@ -169,10 +149,7 @@ export const SPECIES: Species[] = [
     id: "szakal",
     name: "Szakale złociste",
     icons: [szakal],
-    seasons: [
-      { from: { month: 8, day: 1 }, to: { month: 2, day: "end" } },
-      { from: { month: 3, day: 1 }, to: { month: 7, day: 31 }, condition: "grouse-or-restock" },
-    ],
+    seasons: [{ from: { month: 8, day: 1 }, to: { month: 2, day: "end" } }],
   },
   {
     id: "zajac",
@@ -186,11 +163,8 @@ export const SPECIES: Species[] = [
   {
     id: "bazant",
     name: "Bażanty",
-    icons: [kogut, kura],
-    seasons: [
-      { who: "koguty", from: { month: 10, day: 1 }, to: { month: 2, day: "end" }, icons: [kogut] },
-      { who: "kury", from: { month: 10, day: 1 }, to: { month: 1, day: 31 }, condition: "ohz-pheasant", icons: [kura] },
-    ],
+    icons: [kogut],
+    seasons: [{ who: "koguty", from: { month: 10, day: 1 }, to: { month: 2, day: "end" }, icons: [kogut] }],
   },
   {
     id: "kuropatwa",

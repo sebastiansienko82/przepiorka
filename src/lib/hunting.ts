@@ -1,7 +1,5 @@
 import {
-  CONDITIONS,
   SPECIES,
-  type Condition,
   type Icon,
   type Method,
   type Season,
@@ -14,7 +12,6 @@ const LAST_DAY = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 export interface MonthPart {
   who?: string;
   text: string;
-  condition?: Condition;
   icons: Icon[];
 }
 
@@ -106,7 +103,7 @@ export function rowsForMonth(month: number): MonthRow[] {
   return SPECIES.flatMap((species) => {
     const groups = new Map<string, Season[]>();
     for (const season of species.seasons) {
-      const key = `${season.who ?? ""}|${season.condition ?? ""}`;
+      const key = season.who ?? "";
       const list = groups.get(key) ?? [];
       list.push(season);
       groups.set(key, list);
@@ -122,7 +119,6 @@ export function rowsForMonth(month: number): MonthRow[] {
       parts.push({
         who: sample.who,
         text: combine(huntClip ?? undefined, trapClip ?? undefined, month),
-        condition: sample.condition,
         icons: uniqueIcons(seasons.flatMap((season) => season.icons ?? species.icons)),
       });
     }
@@ -240,7 +236,6 @@ function covers(date: Date, season: Season, startYear: number): "nominal" | "ext
 interface OpenSlice {
   who?: string;
   method: Method;
-  condition?: Condition;
   extended: boolean;
   icons: Icon[];
 }
@@ -254,7 +249,6 @@ function openSlices(date: Date, species: Species): OpenSlice[] {
     slices.push({
       who: season.who,
       method: season.method ?? "hunt",
-      condition: season.condition,
       extended: status === "extended",
       icons: season.icons ?? species.icons,
     });
@@ -280,11 +274,9 @@ export function openToday(date: Date): TodayCard[] {
   return SPECIES.flatMap((species) => {
     const slices = openSlices(date, species);
     if (!slices.length) return [];
-    const plain = slices.filter((slice) => !slice.condition);
-    const plainWho = new Set(plain.map((slice) => slice.who ?? ""));
     const lines: string[] = [];
-    const hunt = plain.filter((slice) => slice.method === "hunt");
-    const trap = plain.filter((slice) => slice.method === "trapping");
+    const hunt = slices.filter((slice) => slice.method === "hunt");
+    const trap = slices.filter((slice) => slice.method === "trapping");
     const huntWho = new Set(hunt.map((slice) => slice.who ?? ""));
     const trapWho = new Set(trap.map((slice) => slice.who ?? ""));
     const both = [...huntWho].filter((who) => trapWho.has(who));
@@ -296,18 +288,13 @@ export function openToday(date: Date): TodayCard[] {
       if (text) lines.push(text);
     }
     if (trapOnly.length) lines.push(line(trapOnly, "tylko odłów"));
-    for (const condition of ["grouse", "grouse-or-restock", "ohz-pheasant"] as const) {
-      const extra = slices.filter((slice) => slice.condition === condition && !plainWho.has(slice.who ?? ""));
-      if (!extra.length) continue;
-      lines.push(line(extra.map((slice) => slice.who), CONDITIONS[condition]));
-    }
     return [
       {
         name: species.name,
         detail: species.detail,
         icons: uniqueIcons(slices.flatMap((slice) => slice.icons)),
         lines,
-        extended: slices.some((slice) => slice.extended && !slice.condition),
+        extended: slices.some((slice) => slice.extended),
       },
     ];
   });
