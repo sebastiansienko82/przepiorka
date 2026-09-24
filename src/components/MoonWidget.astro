@@ -56,6 +56,16 @@
     return canvas.toDataURL("image/png");
   }
 
+  function paintMoon(element: HTMLElement, phase: number) {
+    if (!moonLitPath(phase)) {
+      element.classList.add("is-new");
+      element.style.backgroundImage = "none";
+      return;
+    }
+    element.classList.remove("is-new");
+    element.style.backgroundImage = `url("${moonImage(phase)}")`;
+  }
+
   function sunPart(label: string, value: string, iso: string): HTMLSpanElement {
     const part = document.createElement("span");
     part.append(document.createTextNode(`${label} `));
@@ -71,7 +81,7 @@
     const sky = moonNow(now);
     const disc = document.createElement("span");
     disc.className = "moon-disc";
-    disc.style.backgroundImage = `url("${moonImage(sky.phase)}")`;
+    paintMoon(disc, sky.phase);
     stage.replaceChildren(disc);
     date.textContent = sky.dateLabel;
     name.textContent = sky.name;
@@ -85,7 +95,7 @@
         const item = document.createElement("li");
         const icon = document.createElement("span");
         icon.className = "moon-mini";
-        icon.style.backgroundImage = `url("${moonImage(event.phase)}")`;
+        paintMoon(icon, event.phase);
         const text = document.createElement("span");
         const title = document.createElement("strong");
         title.textContent = event.name;
