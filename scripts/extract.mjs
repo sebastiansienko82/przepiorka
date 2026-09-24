@@ -6,8 +6,8 @@ const root = path.resolve(import.meta.dirname, "..");
 const oldDir = path.join(root, "old");
 const publicDir = path.join(root, "public");
 const dataDir = path.join(root, "src", "data");
-const siteOrigin = "https://sebastiansienko82.github.io";
-const siteBase = "/przepiorka";
+const siteOrigin = "https://www.kololowieckieprzepiorka.pl";
+const siteBase = "";
 
 const LETTERS = {
   ą: "a",

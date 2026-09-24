@@ -15,7 +15,7 @@ npm run dev
 npm run build
 ```
 
-The build is written to `docs/` so GitHub Pages can publish this branch from the `/docs` folder. The site is a project page at `https://sebastiansienko82.github.io/przepiorka/`. Pages are directories with `index.html`, so `/przepiorka/zarzad/` and `/przepiorka/galeria/polowanie-wigilijne-2025/` work there.
+The build is written to `docs/`. Publish the contents of that folder at the domain root of `https://www.kololowieckieprzepiorka.pl`. Pages are directories with `index.html`, so `/zarzad/` and `/galeria/polowanie-wigilijne-2025/` work there.
 
 `npm run extract` rebuilds `src/data` and copies photos and documents out of `old/`. Run it again only after the archive changes.
 
