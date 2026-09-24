@@ -827,7 +827,7 @@ dialog.lightbox::backdrop {
 
 .moon-stage .moon-svg {
   width: 76%;
-  filter: drop-shadow(0 0 10px rgba(243, 230, 196, 0.28));
+  filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.35));
 }
 
 .moon-copy .kicker {

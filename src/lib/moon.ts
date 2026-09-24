@@ -180,10 +180,8 @@ export function phaseName(phase: number): string {
   if (near(0.25)) return "Pierwsza kwadra";
   if (near(0.5)) return "Pełnia";
   if (near(0.75)) return "Ostatnia kwadra";
-  if (p < 0.25) return "Sierp przybywający";
-  if (p < 0.5) return "Księżyc garbaty przybywający";
-  if (p < 0.75) return "Księżyc garbaty ubywający";
-  return "Sierp ubywający";
+  if (p < 0.5) return "Przybywający";
+  return "Ubywający";
 }
 
 function ageLabel(phase: number): string {
@@ -295,16 +293,34 @@ export function upcomingPhases(date = new Date()): MoonEvent[] {
   }).sort((a, b) => a.at.getTime() - b.at.getTime());
 }
 
-/** Lit limb for the northern hemisphere: waxing moon is bright on the right. */
+/**
+ * Lit limb for the northern hemisphere: waxing moon is bright on the right.
+ * Exact new and full moons are special-cased. A semicircle arc (rx = radius)
+ * is ambiguous in SVG and some engines fill the opposite disk, so nów and pełnia swap.
+ */
 export function moonLitPath(phase: number, cx = 50, cy = 50, radius = 46): string {
   const p = ((phase % 1) + 1) % 1;
-  const rx = Math.max(Math.abs(Math.cos(p * 2 * Math.PI)) * radius, 0.01);
-  const top = `${cx} ${cy - radius}`;
-  const bottom = `${cx} ${cy + radius}`;
-  if (p <= 0.5) {
-    const sweep = p <= 0.25 ? 0 : 1;
-    return `M ${top} A ${radius} ${radius} 0 0 1 ${bottom} A ${rx} ${radius} 0 0 ${sweep} ${top} Z`;
+  if (p < 0.005 || p > 0.995) return "";
+  if (Math.abs(p - 0.5) < 0.005) {
+    return `M ${cx - radius} ${cy} a ${radius} ${radius} 0 1 1 ${radius * 2} 0 a ${radius} ${radius} 0 1 1 ${-radius * 2} 0 Z`;
   }
-  const sweep = p <= 0.75 ? 1 : 0;
-  return `M ${top} A ${radius} ${radius} 0 0 0 ${bottom} A ${rx} ${radius} 0 0 ${sweep} ${top} Z`;
+
+  const steps = 64;
+  const waxing = p < 0.5;
+  const side = waxing ? 1 : -1;
+  const terminator = Math.cos(p * 2 * Math.PI);
+  const points: string[] = [];
+  for (let i = 0; i <= steps; i++) {
+    const t = -Math.PI / 2 + (Math.PI * i) / steps;
+    const y = cy + radius * Math.sin(t);
+    const limb = cx + side * radius * Math.cos(t);
+    points.push(`${limb.toFixed(2)} ${y.toFixed(2)}`);
+  }
+  for (let i = steps; i >= 0; i--) {
+    const t = -Math.PI / 2 + (Math.PI * i) / steps;
+    const y = cy + radius * Math.sin(t);
+    const edge = cx + side * terminator * radius * Math.cos(t);
+    points.push(`${edge.toFixed(2)} ${y.toFixed(2)}`);
+  }
+  return `M ${points.join(" L ")} Z`;
 }
