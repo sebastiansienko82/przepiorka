@@ -242,14 +242,6 @@ a:hover {
   color: #6d5424;
 }
 
-.hero-meta {
-  margin: 0;
-  max-width: 28rem;
-  color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.35;
-}
-
 .hero .actions {
   margin-top: 0.55rem;
   gap: 0.45rem;
