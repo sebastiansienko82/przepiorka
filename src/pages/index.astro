@@ -21,7 +21,15 @@ function isCover(image: { width: number; height: number } | null) {
 
 <Base title={site.name} description={description} path="/">
   <section class="hero">
-    {hubert && <img class="hero-photo" src={sitePath(hubert.src)} alt="" width={hubert.width} height={hubert.height} />}
+    {hubert && (
+      <img
+        class="hero-photo"
+        src={sitePath(hubert.src)}
+        alt={hubert.alt}
+        width={hubert.width}
+        height={hubert.height}
+      />
+    )}
     <div class="hero-copy">
       <p class="kicker"><span aria-hidden="true">✦</span> {site.greeting}</p>
       <h1>Koło Łowieckie „Przepiórka”</h1>

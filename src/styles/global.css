@@ -156,7 +156,7 @@ a:hover {
 
 .hero {
   position: relative;
-  min-height: 15.5rem;
+  min-height: 32rem;
   display: grid;
   align-items: end;
   color: var(--ink);
@@ -170,7 +170,7 @@ a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 42%;
+  object-position: center 32%;
 }
 
 .hero::after {
@@ -753,7 +753,7 @@ dialog.lightbox::backdrop {
   }
 
   .hero {
-    min-height: 13.5rem;
+    min-height: 22rem;
   }
 
   .hero-copy {
