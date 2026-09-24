@@ -581,23 +581,28 @@ fs.writeFileSync(path.join(dataDir, "site.json"), JSON.stringify(site, null, 2))
 fs.writeFileSync(path.join(dataDir, "albums.json"), JSON.stringify(albums, null, 2));
 fs.writeFileSync(path.join(dataDir, "news.json"), JSON.stringify(news, null, 2));
 
+const unusedPages = new Set([
+  "aktualno-ci.html",
+  "imsearch.php",
+  "polowanie-hubertowskie-2020.html",
+  "polowanie-zbiorowe-hubertus-obwod-199-13.11.2021.html",
+]);
+
 const routes = new Map([
   ["index.html", "/"],
   ["aktualnosci.php", "/aktualnosci/"],
-  ["aktualno-ci.html", "/aktualnosci/"],
   ["zarz-d.html", "/zarzad/"],
   ["ksi--ka-polowa-.html", "/ksiazka-polowan/"],
   ["ksi--ka-polowa--.html", "/ksiazka-polowan/"],
   ["historia.html", "/"],
   ["kontakt.html", "/zarzad/"],
   ["imsitemap.html", "/"],
-  ["imsearch.php", "/"],
 ]);
 for (const album of albums) routes.set(album.source, `/galeria/${album.slug}/`);
 
 const titled = new Map(albums.map((album) => [album.title.toLowerCase(), `/galeria/${album.slug}/`]));
 for (const entry of fs.readdirSync(oldDir)) {
-  if (!/\.(html|php)$/i.test(entry) || routes.has(entry)) continue;
+  if (!/\.(html|php)$/i.test(entry) || routes.has(entry) || unusedPages.has(entry)) continue;
   if (entry.startsWith("res/") || entry.includes("imemail")) continue;
   const htmlPath = path.join(oldDir, entry);
   if (!fs.statSync(htmlPath).isFile()) continue;
