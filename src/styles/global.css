@@ -825,8 +825,10 @@ dialog.lightbox::backdrop {
     var(--forest);
 }
 
-.moon-stage .moon-svg {
+.moon-disc {
   width: 76%;
+  aspect-ratio: 1;
+  background: center / contain no-repeat;
   filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.35));
 }
 
@@ -922,16 +924,10 @@ dialog.lightbox::backdrop {
 }
 
 .moon-mini {
-  display: grid;
-  place-items: center;
   width: 1.55rem;
   height: 1.55rem;
   border-radius: 50%;
-  background: var(--forest);
-}
-
-.moon-mini .moon-svg {
-  width: 78%;
+  background: var(--forest) center / 78% no-repeat;
 }
 
 .moon-upcoming strong,
