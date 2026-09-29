@@ -7,7 +7,6 @@
         <p class="kicker">Dziś</p>
         <p class="moon-date" data-moon-date></p>
         <p class="moon-name" data-moon-name></p>
-        <p class="moon-detail" data-moon-detail></p>
         <p class="moon-sun" data-moon-sun></p>
         <p class="moon-sun-place">dla Białegostoku</p>
       </div>
@@ -26,7 +25,6 @@
   const stage = root?.querySelector<HTMLElement>("[data-moon-stage]");
   const date = root?.querySelector<HTMLElement>("[data-moon-date]");
   const name = root?.querySelector<HTMLElement>("[data-moon-name]");
-  const detail = root?.querySelector<HTMLElement>("[data-moon-detail]");
   const sun = root?.querySelector<HTMLElement>("[data-moon-sun]");
   const list = root?.querySelector<HTMLOListElement>("[data-moon-upcoming]");
 
@@ -76,7 +74,7 @@
     return part;
   }
 
-  if (root && stage && date && name && detail && sun && list) {
+  if (root && stage && date && name && sun && list) {
     const now = new Date();
     const sky = moonNow(now);
     const disc = document.createElement("span");
@@ -85,7 +83,6 @@
     stage.replaceChildren(disc);
     date.textContent = sky.dateLabel;
     name.textContent = sky.name;
-    detail.textContent = sky.detailLabel;
     sun.replaceChildren(
       sunPart("Wschód słońca", sky.sunriseLabel, sky.sunriseIso),
       sunPart("Zachód słońca", sky.sunsetLabel, sky.sunsetIso),

@@ -17,7 +17,6 @@ export type MoonNow = {
   fraction: number;
   name: string;
   dateLabel: string;
-  detailLabel: string;
   sunriseLabel: string;
   sunsetLabel: string;
   sunriseIso: string;
@@ -184,13 +183,6 @@ export function phaseName(phase: number): string {
   return "Ubywający";
 }
 
-function ageLabel(phase: number): string {
-  const days = Math.round(phase * SYNODIC_DAYS);
-  if (days === 0) return "dzień nowiu";
-  if (days === 1) return "1 dzień od nowiu";
-  return `${days} dni od nowiu`;
-}
-
 function capitalize(value: string): string {
   return value.charAt(0).toLocaleUpperCase("pl-PL") + value.slice(1);
 }
@@ -265,14 +257,12 @@ export function moonNow(date = new Date()): MoonNow {
       year: "numeric",
     }).format(date),
   );
-  const illumination = Math.round(fraction * 100);
   const { sunrise, sunset } = sunTimes(date);
   return {
     phase,
     fraction,
     name: phaseName(phase),
     dateLabel,
-    detailLabel: `Oświetlenie ${illumination}% · ${ageLabel(phase)}`,
     sunriseLabel: clockLabel(sunrise),
     sunsetLabel: clockLabel(sunset),
     sunriseIso: sunrise.toISOString(),

@@ -845,15 +845,13 @@ dialog.lightbox::backdrop {
 }
 
 .moon-date,
-.moon-detail,
 .moon-sun,
 .moon-next-label {
   margin: 0;
   color: var(--muted);
 }
 
-.moon-date,
-.moon-detail {
+.moon-date {
   font-size: 0.92rem;
 }
 
@@ -869,7 +867,6 @@ dialog.lightbox::backdrop {
 
 .moon-name:empty,
 .moon-date:empty,
-.moon-detail:empty,
 .moon-sun:empty {
   min-height: 1.2em;
 }
