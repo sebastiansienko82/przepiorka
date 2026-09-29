@@ -1173,6 +1173,65 @@ dialog.lightbox::backdrop {
   }
 }
 
+.district-map {
+  height: min(70vh, 42rem);
+  min-height: 24rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #d5d0c4;
+  isolation: isolate;
+}
+
+.district-map img {
+  max-width: none;
+}
+
+.district-note {
+  margin: 0.85rem 0 0;
+  max-width: 46rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.district-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  margin: 0.9rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.district-key li {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.district-key span,
+.leaflet-tooltip.district-label {
+  display: inline-grid;
+  place-items: center;
+  min-width: 2.1rem;
+  padding: 0.05rem 0.4rem;
+  border-radius: 999px;
+  background: var(--forest);
+  color: var(--paper);
+  font-weight: 600;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.leaflet-tooltip.district-label {
+  border: none;
+  box-shadow: 0 1px 4px rgba(23, 38, 28, 0.28);
+}
+
+.leaflet-tooltip.district-label::before {
+  display: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

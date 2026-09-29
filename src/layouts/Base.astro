@@ -39,6 +39,7 @@ const fullTitle = path === "/" ? `${site.name} ${site.place}` : `${title} — ${
     <meta property="og:url" content={canonical} />
     <meta property="og:locale" content="pl_PL" />
     <meta name="theme-color" content="#17261c" />
+    <slot name="head" />
   </head>
   <body>
     <a class="skip" href="#tresc">Przejdź do treści</a>

@@ -1,0 +1,74 @@
+---
+import Base from "../layouts/Base.astro";
+import districts from "../data/club-districts.json";
+
+const numbers = districts.features.map((feature) => feature.properties.number);
+---
+
+<Base
+  title="Obwody łowieckie"
+  description="Mapa obwodów łowieckich Koła Łowieckiego Przepiórka: 64, 180, 199 i 201."
+  path="/obwody/"
+>
+  <link
+    slot="head"
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+  <div class="wrap page-head">
+    <h1>Obwody łowieckie</h1>
+    <p>Koło dzierżawi obwody {numbers.join(", ").replace(/, ([^,]+)$/, " i $1")}. Na mapie zaznaczone są ich granice.</p>
+  </div>
+
+  <section class="section" style="padding-top: 0.5rem">
+    <div class="wrap">
+      <div id="obwody-map" class="district-map" role="region" aria-label="Mapa obwodów koła"></div>
+      <ul class="district-key">
+        {
+          numbers.map((number) => (
+            <li>
+              Obwód <span>{number}</span>
+            </li>
+          ))
+        }
+      </ul>
+      <p class="district-note">
+        Obrysy pochodzą z publicznego zbioru obwodów województwa podlaskiego i pokrywają się z
+        <a href="https://geoportal.podlaskie.eu/mapy/obwody-lowieckie.html">mapą GIS Podlasia</a>.
+        Podkład:
+        <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>.
+      </p>
+    </div>
+  </section>
+
+  <script is:inline id="club-districts" type="application/json" set:html={JSON.stringify(districts)}></script>
+  <script is:inline src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script is:inline>
+    const districts = JSON.parse(document.getElementById("club-districts").textContent);
+    const map = L.map("obwody-map", { scrollWheelZoom: true });
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 18,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    }).addTo(map);
+
+    const layer = L.geoJSON(districts, {
+      style: {
+        color: "#17261c",
+        weight: 3,
+        fillColor: "#3f6b45",
+        fillOpacity: 0.38,
+      },
+      onEachFeature(feature, shape) {
+        shape.bindTooltip(String(feature.properties.number), {
+          permanent: true,
+          direction: "center",
+          className: "district-label",
+        });
+      },
+    }).addTo(map);
+
+    map.fitBounds(layer.getBounds(), { padding: [28, 28] });
+  </script>
+</Base>
